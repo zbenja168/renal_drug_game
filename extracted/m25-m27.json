@@ -1,0 +1,21 @@
+[
+{"name":"Furosemide","class":"Loop diuretic","moa":"Inhibits NKCC2 in thick ascending limb","uses":"HF, edema, HTN; mimics Bartter","aes":"Hypomagnesemia, hypokalemia, hypocalcemia, hyponatremia, ototoxicity","notes":"Urinary Mg wasting","source":["25","26"]},
+{"name":"Thiazide diuretics","class":"Thiazide diuretic","moa":"Inhibits NCC in DCT","uses":"HTN, edema; mimics Gitelman","aes":"Hypomagnesemia, hypokalemia, hyponatremia, hypercalcemia","notes":"Causes Mg wasting","source":["25","26"]},
+{"name":"Chlorthalidone","class":"Thiazide-like diuretic","moa":"Inhibits NCC","uses":"HTN","aes":"Hypokalemia, hypomagnesemia, hyponatremia","notes":"","source":["26"]},
+{"name":"Amphotericin B","class":"Polyene antifungal","moa":"Binds ergosterol; ↑basolateral permeability in tubular cells","uses":"Severe systemic fungal infections","aes":"Renal Mg/K wasting, nephrotoxicity","notes":"","source":["25"]},
+{"name":"Cisplatin","class":"Platinum chemotherapy","moa":"DNA crosslinking; damages renal tubular cells","uses":"Various malignancies","aes":"Magnesium wasting, nephrotoxicity, ototoxicity","notes":"","source":["25"]},
+{"name":"Cetuximab","class":"Anti-EGFR monoclonal antibody","moa":"Blocks EGFR; ↓TRPM6 channel activity","uses":"Colorectal cancer, head/neck cancer","aes":"Hypomagnesemia","notes":"","source":["25"]},
+{"name":"Proton pump inhibitors","class":"PPI","moa":"Irreversibly inhibit gastric H/K-ATPase; also gut TRPM6/7","uses":"GERD, peptic ulcer","aes":"Hypomagnesemia","notes":"","source":["25"]},
+{"name":"Aminoglycosides","class":"Antibiotic","moa":"Bind 30S ribosome; also activate CaSR, ↓Mg reabsorption","uses":"Severe gram-negative infections","aes":"Hypomagnesemia, nephrotoxicity, ototoxicity","notes":"","source":["25"]},
+{"name":"Calcineurin inhibitors","class":"Immunosuppressant","moa":"Inhibit calcineurin; ↓TRPM6 activity","uses":"Transplant rejection, autoimmune disease","aes":"Hypomagnesemia, nephrotoxicity, HTN","notes":"Includes cyclosporine, tacrolimus","source":["25"]},
+{"name":"Magnesium sulfate","class":"Mineral/electrolyte (IV)","moa":"Replenishes Mg stores; cofactor for Na/K-ATPase","uses":"Severe hypoMg, torsades, preeclampsia/eclampsia","aes":"Hyporeflexia, lethargy, hypotension, respiratory depression","notes":"IV preferred for severe deficiency","source":["25"]},
+{"name":"Magnesium oxide","class":"Oral Mg salt","moa":"Oral Mg replacement","uses":"Mild/asymptomatic hypoMg","aes":"GI upset, diarrhea","notes":"Preferred oral form","source":["25"]},
+{"name":"Magnesium chloride","class":"Oral Mg salt","moa":"Oral Mg replacement","uses":"Mild hypoMg","aes":"GI upset, diarrhea","notes":"","source":["25"]},
+{"name":"Magnesium citrate","class":"Oral Mg salt","moa":"Oral Mg; osmotic laxative","uses":"Mg supplementation, constipation","aes":"Diarrhea; hypermagnesemia in CKD","notes":"","source":["25"]},
+{"name":"Amiloride","class":"K-sparing diuretic","moa":"Blocks ENaC in collecting duct","uses":"Liddle syndrome, K-sparing diuresis, HTN","aes":"Hyperkalemia","notes":"First-line for Liddle","source":["25","26"]},
+{"name":"Triamterene","class":"K-sparing diuretic","moa":"Blocks ENaC","uses":"Liddle syndrome, K-sparing diuresis","aes":"Hyperkalemia","notes":"","source":["26"]},
+{"name":"Potassium chloride","class":"Electrolyte replacement","moa":"Replaces potassium","uses":"Hypokalemia repletion","aes":"Hyperkalemia, GI irritation","notes":"Refractory hypoK unresponsive without Mg correction","source":["25"]},
+{"name":"Indomethacin","class":"NSAID","moa":"Inhibits COX, ↓prostaglandins","uses":"Bartter syndrome, pain/inflammation","aes":"GI bleed, AKI, hyperkalemia","notes":"Used in Bartter management","source":["26"]},
+{"name":"Mannitol","class":"Osmotic diuretic","moa":"Filtered, non-reabsorbed osmole","uses":"Cerebral edema, elevated IOP","aes":"Volume overload, electrolyte disturbances","notes":"","source":["26"]},
+{"name":"Acetazolamide","class":"Carbonic anhydrase inhibitor","moa":"Inhibits CA in PT, blocks HCO3 reabsorption","uses":"Altitude sickness, glaucoma, metabolic alkalosis","aes":"Metabolic acidosis, hypokalemia","notes":"Urinary bicarbonate excretion","source":["27"]}
+]

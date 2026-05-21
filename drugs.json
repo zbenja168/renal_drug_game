@@ -1,0 +1,2810 @@
+[
+  {
+    "name": "0.45% NaCl (Half-normal saline)",
+    "class": "Hypotonic crystalloid",
+    "moa": "Hypotonic solution shifts water into ICF and ECF, lowering serum Na",
+    "uses": "Hypernatremia, free water + volume repletion",
+    "aes": "Cerebral edema if corrected too rapidly",
+    "notes": "Osmolality 154 mOsm/L",
+    "sources": [
+      "16",
+      "19"
+    ]
+  },
+  {
+    "name": "0.9% NaCl (Normal Saline)",
+    "class": "Isotonic crystalloid",
+    "moa": "Expands ECF without ICF shift due to isotonic osmolality (~308 mOsm/L)",
+    "uses": "Hypovolemia, sepsis, isotonic dehydration, hypernatremia volume repletion",
+    "aes": "Hyperchloremic metabolic acidosis with large volumes, fluid overload",
+    "notes": "Na 154, Cl 154; no buffer",
+    "sources": [
+      "16",
+      "18",
+      "19"
+    ]
+  },
+  {
+    "name": "3% Hypertonic saline",
+    "class": "Hypertonic crystalloid",
+    "moa": "High osmolality shifts water from ICF to ECF; raises serum Na",
+    "uses": "Severe symptomatic hyponatremia, cerebral edema, elevated ICP",
+    "aes": "Osmotic demyelination syndrome if corrected too quickly",
+    "notes": "Na 513, Cl 513",
+    "sources": [
+      "16",
+      "17",
+      "18"
+    ]
+  },
+  {
+    "name": "ACE inhibitors",
+    "class": "RAAS inhibitor",
+    "moa": "Block Ang I→Ang II; dilate efferent arteriole",
+    "uses": "HTN, proteinuria, CKD, DKD, Alport",
+    "aes": "Hyperkalemia/type 4 RTA, cough, angioedema, AKI",
+    "notes": "Renoprotective; reduce proteinuria",
+    "sources": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "22",
+      "23",
+      "28",
+      "34",
+      "35",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "48",
+      "49"
+    ]
+  },
+  {
+    "name": "Acetaminophen",
+    "class": "Analgesic/antipyretic",
+    "moa": "Central COX inhibition; cannabinoid pathway",
+    "uses": "Pain, fever",
+    "aes": "Hepatotoxicity, papillary necrosis with chronic use",
+    "notes": "Component of analgesic nephropathy",
+    "sources": [
+      "51",
+      "52",
+      "54"
+    ]
+  },
+  {
+    "name": "Acetazolamide",
+    "class": "Carbonic anhydrase inhibitor (sulfonamide)",
+    "moa": "Inhibits CA in PT, reducing HCO3/Na reabsorption",
+    "uses": "Glaucoma, altitude sickness, IIH, central sleep apnea, COPD",
+    "aes": "Type 2 RTA, hypokalemia, nephrolithiasis, paresthesias",
+    "notes": "Correct contraction alkalosis from loops",
+    "sources": [
+      "12",
+      "15",
+      "27",
+      "28",
+      "29",
+      "32",
+      "54"
+    ]
+  },
+  {
+    "name": "Adenosine",
+    "class": "Endogenous nucleoside",
+    "moa": "Causes afferent arteriolar constriction via A1 receptors",
+    "uses": "SVT",
+    "aes": "Transient bradycardia, flushing",
+    "notes": "Mediates TGF response",
+    "sources": [
+      "8"
+    ]
+  },
+  {
+    "name": "ADH/Vasopressin",
+    "class": "ADH agonist",
+    "moa": "Binds V2 (aquaporin insertion, water reabsorption) and V1 (vasoconstriction) receptors",
+    "uses": "Central DI, distributive/septic shock, bleeding esophageal varices",
+    "aes": "Hyponatremia, mesenteric/limb/skin ischemia, pulmonary hypertension",
+    "notes": "V1=vasoconstriction, V2=water reabsorption",
+    "sources": [
+      "17",
+      "20"
+    ]
+  },
+  {
+    "name": "Albuterol",
+    "class": "Beta-2 adrenergic agonist",
+    "moa": "Activates beta-2, stimulates Na-K-ATPase to shift K into cells",
+    "uses": "Asthma, COPD, acute hyperkalemia",
+    "aes": "Hypokalemia, tachycardia, tremor",
+    "notes": "Used acutely for hyperkalemia",
+    "sources": [
+      "11",
+      "22",
+      "23"
+    ]
+  },
+  {
+    "name": "Aldosterone",
+    "class": "Mineralocorticoid hormone",
+    "moa": "↑ENaC and Na/K-ATPase in principal cells, Na reabsorption + K secretion",
+    "uses": "Endogenous",
+    "aes": "Excess→HTN, hypokalemia",
+    "notes": "Target of spironolactone",
+    "sources": [
+      "10",
+      "11"
+    ]
+  },
+  {
+    "name": "Alendronate",
+    "class": "Bisphosphonate",
+    "moa": "Inhibits osteoclast bone resorption",
+    "uses": "Osteoporosis, hypercalcemia",
+    "aes": "Esophagitis, ONJ",
+    "notes": "",
+    "sources": [
+      "24"
+    ]
+  },
+  {
+    "name": "Alfuzosin",
+    "class": "Alpha-1 adrenergic blocker",
+    "moa": "Blocks α1 receptors in prostate/bladder neck",
+    "uses": "BPH",
+    "aes": "Orthostatic hypotension, dizziness, syncope",
+    "notes": "Used for BPH-related incontinence",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Allopurinol",
+    "class": "Xanthine oxidase inhibitor",
+    "moa": "Inhibits xanthine oxidase → ↓uric acid",
+    "uses": "Gout, uric acid stones, tumor lysis",
+    "aes": "Rash (SJS/TEN risk), hepatotoxicity",
+    "notes": "For uric acid stone prevention",
+    "sources": [
+      "54"
+    ]
+  },
+  {
+    "name": "Amiloride",
+    "class": "K-sparing diuretic (ENaC blocker)",
+    "moa": "Blocks epithelial sodium channels (ENaC) in collecting duct principal cells",
+    "uses": "Nephrogenic DI from lithium, K-sparing diuresis",
+    "aes": "Hyperkalemia, metabolic acidosis",
+    "notes": "Blocks lithium entry via Na channels",
+    "sources": [
+      "15",
+      "17",
+      "19",
+      "22",
+      "23",
+      "25",
+      "26",
+      "29"
+    ]
+  },
+  {
+    "name": "Aminoglycosides",
+    "class": "Aminoglycoside antibiotics",
+    "moa": "Bind 30S ribosome; also activate CaSR, ↓Mg reabsorption",
+    "uses": "Severe gram-negative infections",
+    "aes": "Hypomagnesemia, nephrotoxicity, ototoxicity",
+    "notes": "Avoid with loop diuretics (additive ototoxicity)",
+    "sources": [
+      "12",
+      "25",
+      "33",
+      "50",
+      "52"
+    ]
+  },
+  {
+    "name": "Amoxicillin",
+    "class": "Aminopenicillin",
+    "moa": "Inhibits PBPs/cell wall synthesis",
+    "uses": "Otitis media, strep pharyngitis, UTI",
+    "aes": "Rash, GI upset, AIN",
+    "notes": "AIN cause",
+    "sources": [
+      "45",
+      "51"
+    ]
+  },
+  {
+    "name": "Amphotericin B",
+    "class": "Polyene antifungal",
+    "moa": "Binds ergosterol; ↑basolateral permeability in tubular cells",
+    "uses": "Severe systemic fungal infections",
+    "aes": "ATN, hypokalemia, hypomagnesemia, infusion reactions",
+    "notes": "Damages alpha-intercalated cells",
+    "sources": [
+      "19",
+      "25",
+      "28",
+      "50"
+    ]
+  },
+  {
+    "name": "Anabolic steroids",
+    "class": "Androgen",
+    "moa": "Bind androgen receptor",
+    "uses": "Hypogonadism (abused for muscle building)",
+    "aes": "FSGS, hepatotoxicity, virilization",
+    "notes": "Secondary FSGS cause",
+    "sources": [
+      "42"
+    ]
+  },
+  {
+    "name": "ARBs",
+    "class": "Angiotensin II receptor blocker",
+    "moa": "Blocks AT1 receptor",
+    "uses": "HTN in PKD (ACEi alternative)",
+    "aes": "Hyperkalemia, ↓GFR",
+    "notes": "RAS blockade in glomerular disease",
+    "sources": [
+      "5",
+      "6",
+      "22",
+      "23",
+      "35",
+      "58"
+    ]
+  },
+  {
+    "name": "Aspirin",
+    "class": "NSAID/antiplatelet (salicylate)",
+    "moa": "Inhibits COX; uncouples oxidative phosphorylation at toxic doses",
+    "uses": "Analgesia, antiplatelet",
+    "aes": "Early respiratory alkalosis then mixed AGMA, tinnitus",
+    "notes": "Contributes to analgesic nephropathy",
+    "sources": [
+      "28",
+      "31",
+      "49",
+      "52"
+    ]
+  },
+  {
+    "name": "Atazanavir",
+    "class": "HIV protease inhibitor",
+    "moa": "Inhibits HIV protease",
+    "uses": "HIV",
+    "aes": "Hyperbilirubinemia, nephrolithiasis",
+    "notes": "",
+    "sources": [
+      "33"
+    ]
+  },
+  {
+    "name": "Axitinib",
+    "class": "VEGFR tyrosine kinase inhibitor",
+    "moa": "Inhibits VEGFR1/2/3, blocks angiogenesis",
+    "uses": "Renal cell carcinoma (with pembrolizumab)",
+    "aes": "HTN, fatigue, diarrhea, hand-foot syndrome",
+    "notes": "Combination therapy for RCC",
+    "sources": [
+      "61"
+    ]
+  },
+  {
+    "name": "Azathioprine",
+    "class": "Immunosuppressant (purine analog)",
+    "moa": "Metabolized to 6-MP → blocks purine synthesis",
+    "uses": "Maintenance immunosuppression, anti-GBM",
+    "aes": "Myelosuppression, hepatotoxicity",
+    "notes": "TPMT testing recommended",
+    "sources": [
+      "47"
+    ]
+  },
+  {
+    "name": "Bacillus Calmette-Guerin (BCG)",
+    "class": "Live attenuated mycobacterial immunotherapy",
+    "moa": "Induces local inflammation/immune response in bladder",
+    "uses": "Superficial non-muscle invasive UCC",
+    "aes": "Cystitis, hematuria, fever, rarely disseminated BCG infection",
+    "notes": "Patients will have positive TB skin test",
+    "sources": [
+      "63"
+    ]
+  },
+  {
+    "name": "Belzutifan",
+    "class": "HIF-2α inhibitor",
+    "moa": "Blocks HIF-2α, reducing transcription of hypoxia-induced genes",
+    "uses": "Refractory RCC, VHL-associated tumors",
+    "aes": "Anemia, hypoxia, fatigue",
+    "notes": "First-in-class HIF-2α inhibitor",
+    "sources": [
+      "61"
+    ]
+  },
+  {
+    "name": "Benzodiazepines",
+    "class": "CNS depressants",
+    "moa": "Potentiate GABA-A activity",
+    "uses": "Anxiety, sedation, seizures",
+    "aes": "Respiratory acidosis via ↓respiratory drive",
+    "notes": "",
+    "sources": [
+      "30"
+    ]
+  },
+  {
+    "name": "Bethanechol",
+    "class": "Muscarinic agonist (cholinergic)",
+    "moa": "Stimulates M3 receptors, increases detrusor contractility",
+    "uses": "Urinary retention/overflow from hypotonic bladder",
+    "aes": "Diarrhea, cramping, salivation, sweating, bronchospasm, bradycardia",
+    "notes": "Caution in asthma/COPD; avoid in obstruction",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Bisphosphonates",
+    "class": "Antiresorptive",
+    "moa": "Inhibit osteoclast-mediated bone resorption",
+    "uses": "Osteoporosis, hypercalcemia",
+    "aes": "FSGS (collapsing), osteonecrosis jaw, esophagitis",
+    "notes": "Secondary FSGS cause",
+    "sources": [
+      "42"
+    ]
+  },
+  {
+    "name": "Botulinum toxin",
+    "class": "Neurotoxin (acetylcholine release inhibitor)",
+    "moa": "Blocks ACh release at neuromuscular junction, paralyzes detrusor",
+    "uses": "Refractory urge incontinence (intravesical injection)",
+    "aes": "Urinary retention, UTI",
+    "notes": "For refractory OAB",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Brinzolamide",
+    "class": "Carbonic anhydrase inhibitor (topical)",
+    "moa": "Inhibits ciliary body CA, ↓aqueous humor",
+    "uses": "Open-angle glaucoma",
+    "aes": "Local irritation, sulfa allergy",
+    "notes": "Topical",
+    "sources": [
+      "32"
+    ]
+  },
+  {
+    "name": "Bumetanide",
+    "class": "Loop diuretic",
+    "moa": "Inhibits NKCC2",
+    "uses": "Edema, CHF, refractory HTN",
+    "aes": "Hypokalemia, ototoxicity, volume depletion",
+    "notes": "Sulfa; 40x potency of furosemide",
+    "sources": [
+      "12"
+    ]
+  },
+  {
+    "name": "Cabozantinib",
+    "class": "VEGFR/MET tyrosine kinase inhibitor",
+    "moa": "Inhibits VEGFR, MET, AXL kinases",
+    "uses": "Metastatic RCC",
+    "aes": "HTN, diarrhea, hand-foot syndrome, fatigue",
+    "notes": "Targeted RCC therapy",
+    "sources": [
+      "61"
+    ]
+  },
+  {
+    "name": "Cadmium",
+    "class": "Heavy metal toxin",
+    "moa": "PT cellular damage",
+    "uses": "None",
+    "aes": "Fanconi, nephrotoxicity",
+    "notes": "",
+    "sources": [
+      "33"
+    ]
+  },
+  {
+    "name": "Calcineurin inhibitors",
+    "class": "Immunosuppressant",
+    "moa": "Inhibit calcineurin; ↓TRPM6 activity",
+    "uses": "Transplant rejection, autoimmune disease",
+    "aes": "Hypomagnesemia, nephrotoxicity, HTN",
+    "notes": "Includes cyclosporine, tacrolimus",
+    "sources": [
+      "25"
+    ]
+  },
+  {
+    "name": "Calcitonin",
+    "class": "Hormone",
+    "moa": "Inhibits osteoclast resorption; ↑renal Ca excretion",
+    "uses": "Rapid short-term ↓hypercalcemia",
+    "aes": "Tachyphylaxis, nausea",
+    "notes": "Loses effectiveness in days",
+    "sources": [
+      "24"
+    ]
+  },
+  {
+    "name": "Calcitriol",
+    "class": "Active vitamin D analog",
+    "moa": "↑intestinal Ca/phosphate absorption; ↑distal tubule Ca reabsorption",
+    "uses": "Bone disease in Fanconi, rickets",
+    "aes": "Hypercalcemia, hyperphosphatemia",
+    "notes": "Replaces activated vitamin D",
+    "sources": [
+      "24",
+      "33",
+      "35",
+      "36"
+    ]
+  },
+  {
+    "name": "Calcium carbonate (oral)",
+    "class": "Phosphate binder / Ca supplement",
+    "moa": "Binds dietary phosphate; supplements Ca",
+    "uses": "CKD-MBD, hypocalcemia",
+    "aes": "Hypercalcemia, vascular calcification",
+    "notes": "With vitamin D in CKD",
+    "sources": [
+      "35"
+    ]
+  },
+  {
+    "name": "Calcium channel blockers",
+    "class": "Antihypertensive",
+    "moa": "Block L-type Ca channels",
+    "uses": "HTN, angina",
+    "aes": "Edema, constipation, bradycardia (non-DHP)",
+    "notes": "MCQ option",
+    "sources": [
+      "52"
+    ]
+  },
+  {
+    "name": "Calcium chloride",
+    "class": "Calcium salt",
+    "moa": "Membrane stabilization",
+    "uses": "Severe hyperkalemia, severe hypocalcemia",
+    "aes": "Tissue necrosis if extravasation",
+    "notes": "Higher elemental Ca; central line preferred",
+    "sources": [
+      "23"
+    ]
+  },
+  {
+    "name": "Calcium gluconate",
+    "class": "Calcium salt",
+    "moa": "Raises threshold potential; stabilizes cardiac membrane",
+    "uses": "Severe hyperkalemia with ECG changes, hypocalcemia",
+    "aes": "Tissue irritation if extravasated",
+    "notes": "Onset 2-5 min, does NOT lower serum K",
+    "sources": [
+      "23",
+      "24"
+    ]
+  },
+  {
+    "name": "Canagliflozin",
+    "class": "SGLT2 inhibitor",
+    "moa": "Blocks SGLT2",
+    "uses": "T2DM, DKD",
+    "aes": "UTIs, amputation risk, DKA",
+    "notes": "Renoprotective in DKD",
+    "sources": [
+      "49"
+    ]
+  },
+  {
+    "name": "Carbamazepine",
+    "class": "Antiepileptic",
+    "moa": "Blocks voltage-gated sodium channels",
+    "uses": "Seizures, trigeminal neuralgia",
+    "aes": "SIADH, hyponatremia, agranulocytosis",
+    "notes": "Causes SIADH",
+    "sources": [
+      "18"
+    ]
+  },
+  {
+    "name": "Cefepime",
+    "class": "4th-generation cephalosporin",
+    "moa": "Inhibits cell wall synthesis; Pseudomonas activity",
+    "uses": "Severe pyelonephritis, sepsis",
+    "aes": "Neurotoxicity in CKD, rash",
+    "notes": "For pseudomonal coverage",
+    "sources": [
+      "53"
+    ]
+  },
+  {
+    "name": "Ceftriaxone",
+    "class": "3rd-generation cephalosporin",
+    "moa": "Inhibits cell wall synthesis",
+    "uses": "Pyelonephritis, meningitis, gonorrhea",
+    "aes": "Biliary sludging, rash",
+    "notes": "IV first-line for severe pyelonephritis",
+    "sources": [
+      "53"
+    ]
+  },
+  {
+    "name": "Cephalexin",
+    "class": "1st-generation cephalosporin",
+    "moa": "Inhibits cell wall synthesis",
+    "uses": "UTI in pregnancy, skin infections",
+    "aes": "GI upset, rash",
+    "notes": "Pregnancy-safe UTI option",
+    "sources": [
+      "50",
+      "53"
+    ]
+  },
+  {
+    "name": "Cephalosporins",
+    "class": "Beta-lactam antibiotic",
+    "moa": "Inhibit cell wall synthesis (PBPs)",
+    "uses": "Broad bacterial infections",
+    "aes": "AIN, rash, GI upset",
+    "notes": "AIN cause",
+    "sources": [
+      "46",
+      "51",
+      "52"
+    ]
+  },
+  {
+    "name": "Cetuximab",
+    "class": "Anti-EGFR monoclonal antibody",
+    "moa": "Blocks EGFR; ↓TRPM6 channel activity",
+    "uses": "Colorectal cancer, head/neck cancer",
+    "aes": "Hypomagnesemia",
+    "notes": "",
+    "sources": [
+      "25"
+    ]
+  },
+  {
+    "name": "Chlorthalidone",
+    "class": "Thiazide-like diuretic",
+    "moa": "Inhibits Na-Cl cotransporter in DCT",
+    "uses": "Hypertension, edema",
+    "aes": "Hypokalemia, hyponatremia, hyperglycemia, hyperuricemia",
+    "notes": "Longer acting than HCTZ",
+    "sources": [
+      "13",
+      "18",
+      "26"
+    ]
+  },
+  {
+    "name": "Cidofovir",
+    "class": "Antiviral (nucleotide analog)",
+    "moa": "Inhibits viral DNA polymerase",
+    "uses": "CMV retinitis",
+    "aes": "Nephrotoxicity (proximal tubule), neutropenia",
+    "notes": "Give with probenecid",
+    "sources": [
+      "19",
+      "50"
+    ]
+  },
+  {
+    "name": "Cimetidine",
+    "class": "H2 receptor antagonist",
+    "moa": "Blocks H2 receptor; inhibits tubular creatinine secretion (OCT)",
+    "uses": "GERD, peptic ulcer",
+    "aes": "Elevated serum creatinine without true GFR change",
+    "notes": "Competes with creatinine at OCT",
+    "sources": [
+      "6",
+      "7",
+      "21"
+    ]
+  },
+  {
+    "name": "Cinacalcet",
+    "class": "Calcimimetic",
+    "moa": "Activates Ca-sensing receptor on parathyroid → ↓PTH",
+    "uses": "Secondary hyperparathyroidism in CKD",
+    "aes": "Hypocalcemia",
+    "notes": "",
+    "sources": [
+      "35"
+    ]
+  },
+  {
+    "name": "Ciprofloxacin",
+    "class": "Fluoroquinolone antibiotic",
+    "moa": "Inhibits DNA gyrase/topoisomerase IV; CYP3A4 inhibitor",
+    "uses": "Complicated UTI, pyelonephritis",
+    "aes": "Tendon rupture, QT prolongation, CNS effects",
+    "notes": "CYP3A4 inhibitor - interacts with vaptans",
+    "sources": [
+      "21",
+      "53"
+    ]
+  },
+  {
+    "name": "Cisplatin",
+    "class": "Platinum-based chemotherapy",
+    "moa": "DNA crosslinking; damages renal tubular cells",
+    "uses": "Muscle-invasive bladder cancer (neoadjuvant)",
+    "aes": "Nephrotoxicity, ototoxicity, peripheral neuropathy, N/V",
+    "notes": "Hydrate; amifostine to reduce nephrotoxicity",
+    "sources": [
+      "25",
+      "33",
+      "34",
+      "50",
+      "63"
+    ]
+  },
+  {
+    "name": "Citrate",
+    "class": "Alkalinizing agent",
+    "moa": "Metabolized to bicarbonate",
+    "uses": "Metabolic acidosis in CKD",
+    "aes": "GI upset",
+    "notes": "Alternative to sodium bicarbonate",
+    "sources": [
+      "6"
+    ]
+  },
+  {
+    "name": "Conivaptan",
+    "class": "V1/V2 receptor antagonist",
+    "moa": "Nonselective V1/V2 ADH receptor antagonist; promotes aquaresis",
+    "uses": "Euvolemic hyponatremia (SIADH), severe hyponatremia inpatient",
+    "aes": "Orthostatic hypotension (V1 blockade), fatigue, dizziness, thirst",
+    "notes": "IV only; CYP3A4 substrate",
+    "sources": [
+      "18",
+      "21"
+    ]
+  },
+  {
+    "name": "Cortisol (hydrocortisone)",
+    "class": "Glucocorticoid",
+    "moa": "Activates glucocorticoid receptor",
+    "uses": "17-hydroxylase deficiency, adrenal insufficiency",
+    "aes": "Cushingoid effects, hyperglycemia",
+    "notes": "",
+    "sources": [
+      "29"
+    ]
+  },
+  {
+    "name": "Cyclophosphamide",
+    "class": "Alkylating agent / immunosuppressant",
+    "moa": "Cross-links DNA, suppresses lymphocytes",
+    "uses": "Severe MCD, MN, anti-GBM, nephritic syndromes",
+    "aes": "Hemorrhagic cystitis, infertility, bladder cancer, myelosuppression",
+    "notes": "Use mesna to prevent hemorrhagic cystitis",
+    "sources": [
+      "40",
+      "41",
+      "44",
+      "45",
+      "47",
+      "63"
+    ]
+  },
+  {
+    "name": "Cyclosporine",
+    "class": "Calcineurin inhibitor",
+    "moa": "Inhibits calcineurin, blocking T-cell IL-2 production",
+    "uses": "MCD, FSGS, transplant immunosuppression",
+    "aes": "Nephrotoxicity, HTN, gingival hyperplasia, hirsutism",
+    "notes": "Steroid-sparing in MCD/FSGS",
+    "sources": [
+      "23",
+      "34",
+      "36",
+      "41",
+      "42"
+    ]
+  },
+  {
+    "name": "Cystatin C",
+    "class": "Endogenous GFR marker",
+    "moa": "13 kDa protein, freely filtered",
+    "uses": "Alternative GFR estimation in low muscle mass",
+    "aes": "N/A",
+    "notes": "Independent of muscle mass",
+    "sources": [
+      "6"
+    ]
+  },
+  {
+    "name": "D5W (5% dextrose in water)",
+    "class": "Hypotonic fluid",
+    "moa": "Dextrose metabolized leaving free water distributed across ICF/ECF",
+    "uses": "Hypernatremia free-water replacement, hypotonic rehydration",
+    "aes": "Hyponatremia, cerebral edema if corrected too fast",
+    "notes": "Cannot give IV water alone (hemolysis)",
+    "sources": [
+      "16",
+      "19"
+    ]
+  },
+  {
+    "name": "Dactinomycin",
+    "class": "Antitumor antibiotic (DNA intercalator)",
+    "moa": "Binds guanine, intercalates between G/C, inhibits DNA/RNA/protein synthesis",
+    "uses": "Wilms tumor chemotherapy",
+    "aes": "Myelosuppression, mucositis, radiation recall",
+    "notes": "Cell cycle-independent",
+    "sources": [
+      "60"
+    ]
+  },
+  {
+    "name": "Dapagliflozin",
+    "class": "SGLT2 inhibitor",
+    "moa": "Blocks SGLT2 in PCT, reducing glucose reabsorption",
+    "uses": "T2DM, HF, CKD",
+    "aes": "UTI, genital infections, euglycemic DKA, volume depletion",
+    "notes": "Cardiorenal benefits",
+    "sources": [
+      "9",
+      "49"
+    ]
+  },
+  {
+    "name": "Darbepoetin",
+    "class": "ESA (long-acting)",
+    "moa": "EPO receptor agonist",
+    "uses": "Anemia of CKD",
+    "aes": "HTN, thromboembolism",
+    "notes": "Longer half-life than EPO",
+    "sources": [
+      "35"
+    ]
+  },
+  {
+    "name": "Darifenacin",
+    "class": "Anticholinergic (antimuscarinic)",
+    "moa": "Selective M3 receptor antagonist",
+    "uses": "Urge incontinence, OAB",
+    "aes": "Dry mouth, constipation",
+    "notes": "Most M3-selective antimuscarinic",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Demeclocycline",
+    "class": "Tetracycline antibiotic (off-label ADH antagonist)",
+    "moa": "Interferes with V2 receptor signaling, prevents aquaporin translocation",
+    "uses": "Chronic SIADH treatment (off-label)",
+    "aes": "Photosensitivity, nephrotoxicity",
+    "notes": "Causes nephrogenic DI as therapeutic effect",
+    "sources": [
+      "18",
+      "19",
+      "21"
+    ]
+  },
+  {
+    "name": "Desmopressin (DDAVP)",
+    "class": "Synthetic ADH analog (V2-selective)",
+    "moa": "Selective V2 agonist; promotes aquaporin insertion and water reabsorption",
+    "uses": "Central DI, nocturnal enuresis, vWD, hemophilia A, water deprivation testing",
+    "aes": "Hyponatremia (less mesenteric ischemia than vasopressin)",
+    "notes": "Oral/nasal/IV; minimal V1 effect",
+    "sources": [
+      "17",
+      "19",
+      "20"
+    ]
+  },
+  {
+    "name": "Dexamethasone",
+    "class": "Glucocorticoid",
+    "moa": "Glucocorticoid receptor agonist",
+    "uses": "Severe allergic AIN, inflammation",
+    "aes": "Hyperglycemia, infection",
+    "notes": "Long-acting glucocorticoid",
+    "sources": [
+      "51"
+    ]
+  },
+  {
+    "name": "Diazepam",
+    "class": "Benzodiazepine",
+    "moa": "GABA-A positive allosteric modulator; CYP3A4 substrate",
+    "uses": "Anxiety, seizures",
+    "aes": "Sedation, dependence",
+    "notes": "CYP3A4 substrate - interacts with vaptans",
+    "sources": [
+      "21"
+    ]
+  },
+  {
+    "name": "Digoxin",
+    "class": "Cardiac glycoside",
+    "moa": "Inhibits Na-K-ATPase",
+    "uses": "HF, atrial fibrillation",
+    "aes": "Hyperkalemia (toxicity), arrhythmia, GI upset",
+    "notes": "Toxicity blocks cellular K uptake",
+    "sources": [
+      "23"
+    ]
+  },
+  {
+    "name": "Dopamine",
+    "class": "Catecholamine/vasodilator",
+    "moa": "Low dose: dilates renal vessels via D1; ↑RBF",
+    "uses": "Shock; renal-dose historical",
+    "aes": "Tachycardia, arrhythmia at high dose",
+    "notes": "Renal-dose no longer recommended",
+    "sources": [
+      "8"
+    ]
+  },
+  {
+    "name": "Dorzolamide",
+    "class": "Carbonic anhydrase inhibitor (topical)",
+    "moa": "Inhibits ciliary body CA",
+    "uses": "Open-angle glaucoma",
+    "aes": "Local irritation, sulfa allergy",
+    "notes": "Topical",
+    "sources": [
+      "32"
+    ]
+  },
+  {
+    "name": "Doxazosin",
+    "class": "Alpha-1 adrenergic blocker",
+    "moa": "Blocks α1 receptors",
+    "uses": "BPH, HTN",
+    "aes": "Orthostatic hypotension, dizziness, syncope",
+    "notes": "Non-selective alpha-1 blocker",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Doxorubicin",
+    "class": "Anthracycline chemotherapeutic",
+    "moa": "Intercalates DNA, inhibits topoisomerase II, generates free radicals",
+    "uses": "Wilms tumor, bladder cancer (M-VAC)",
+    "aes": "Cardiotoxicity, myelosuppression, alopecia",
+    "notes": "Cumulative dose-dependent cardiotoxicity",
+    "sources": [
+      "39",
+      "60",
+      "63"
+    ]
+  },
+  {
+    "name": "Doxycycline",
+    "class": "Tetracycline antibiotic",
+    "moa": "30S ribosomal inhibitor",
+    "uses": "Infections",
+    "aes": "Nephrogenic DI, photosensitivity",
+    "notes": "",
+    "sources": [
+      "19"
+    ]
+  },
+  {
+    "name": "DTPA (99mTc-DTPA)",
+    "class": "Radiolabeled GFR marker",
+    "moa": "Freely filtered exogenous marker",
+    "uses": "GFR measurement, renal scintigraphy",
+    "aes": "Minimal",
+    "notes": "Nuclear medicine",
+    "sources": [
+      "6"
+    ]
+  },
+  {
+    "name": "Dulaglutide",
+    "class": "GLP-1 receptor agonist",
+    "moa": "Activates GLP-1 receptor",
+    "uses": "T2DM",
+    "aes": "Nausea, pancreatitis",
+    "notes": "Weekly injection",
+    "sources": [
+      "49"
+    ]
+  },
+  {
+    "name": "EDTA (51Cr-EDTA)",
+    "class": "Radiolabeled GFR marker",
+    "moa": "Freely filtered exogenous marker",
+    "uses": "GFR measurement (research)",
+    "aes": "Minimal",
+    "notes": "Radioactive label",
+    "sources": [
+      "6"
+    ]
+  },
+  {
+    "name": "Efavirenz",
+    "class": "NNRTI",
+    "moa": "Non-nucleoside reverse transcriptase inhibitor",
+    "uses": "HIV",
+    "aes": "CNS effects, rash",
+    "notes": "",
+    "sources": [
+      "33"
+    ]
+  },
+  {
+    "name": "Empagliflozin",
+    "class": "SGLT2 inhibitor",
+    "moa": "Blocks SGLT2 in proximal tubule",
+    "uses": "T2DM, HF, CKD",
+    "aes": "UTI, genital infections, euglycemic DKA",
+    "notes": "Cardiorenal benefits",
+    "sources": [
+      "9",
+      "49"
+    ]
+  },
+  {
+    "name": "Enalapril",
+    "class": "ACE inhibitor",
+    "moa": "Blocks ACE, reducing angiotensin II",
+    "uses": "HTN, HFrEF, CKD",
+    "aes": "Hyperkalemia, cough, angioedema",
+    "notes": "Used in PKD HTN management",
+    "sources": [
+      "15",
+      "58"
+    ]
+  },
+  {
+    "name": "Enfortumab vedotin",
+    "class": "Anti-Nectin-4 antibody-drug conjugate",
+    "moa": "Targets Nectin-4, delivers MMAE microtubule disruptor",
+    "uses": "Invasive/metastatic UCC (with pembrolizumab)",
+    "aes": "Peripheral neuropathy, rash, hyperglycemia",
+    "notes": "Used combined with pembrolizumab",
+    "sources": [
+      "63"
+    ]
+  },
+  {
+    "name": "Epinephrine",
+    "class": "Sympathomimetic (alpha/beta agonist)",
+    "moa": "Beta-2 shifts K into cells; alpha shifts K out",
+    "uses": "Anaphylaxis, distributive shock, cardiac arrest",
+    "aes": "Tachyarrhythmia, hypertension",
+    "notes": "Net K effect depends on receptors",
+    "sources": [
+      "11",
+      "20"
+    ]
+  },
+  {
+    "name": "Eplerenone",
+    "class": "K-sparing diuretic (aldosterone antagonist)",
+    "moa": "Selective MR antagonist",
+    "uses": "HFrEF, HTN, hyperaldosteronism",
+    "aes": "Hyperkalemia, type 4 RTA",
+    "notes": "Less antiandrogen effect than spiro",
+    "sources": [
+      "15",
+      "23"
+    ]
+  },
+  {
+    "name": "Erdafitinib",
+    "class": "FGFR tyrosine kinase inhibitor",
+    "moa": "Inhibits fibroblast growth factor receptor",
+    "uses": "Metastatic UCC with FGFR mutation",
+    "aes": "Hyperphosphatemia, stomatitis, retinal disorders",
+    "notes": "First gene-targeted therapy for UCC",
+    "sources": [
+      "63"
+    ]
+  },
+  {
+    "name": "Erythropoietin",
+    "class": "Hematopoietic hormone",
+    "moa": "Stimulates RBC production in bone marrow",
+    "uses": "Anemia of CKD/ESRD",
+    "aes": "HTN, venous thromboembolism",
+    "notes": "Produced by kidney; deficient in CKD",
+    "sources": [
+      "8",
+      "34",
+      "35",
+      "36"
+    ]
+  },
+  {
+    "name": "Ethacrynic acid",
+    "class": "Loop diuretic",
+    "moa": "Inhibits NKCC2",
+    "uses": "Edema in sulfa-allergic patients",
+    "aes": "More ototoxicity than other loops, hypokalemia",
+    "notes": "Non-sulfa loop diuretic",
+    "sources": [
+      "12"
+    ]
+  },
+  {
+    "name": "Ethanol",
+    "class": "Alcohol",
+    "moa": "Competes with toxic alcohols for ADH",
+    "uses": "Alternative antidote for methanol/EG toxicity",
+    "aes": "CNS depression, AGMA from ketoacidosis",
+    "notes": "",
+    "sources": [
+      "28",
+      "30"
+    ]
+  },
+  {
+    "name": "Ethylene glycol",
+    "class": "Toxic alcohol",
+    "moa": "Metabolized to glycolic/oxalic acid causing AGMA",
+    "uses": "None (antifreeze)",
+    "aes": "AGMA, renal failure, calcium oxalate stones",
+    "notes": "E in MUDPILES; treat with fomepizole",
+    "sources": [
+      "28"
+    ]
+  },
+  {
+    "name": "Everolimus",
+    "class": "mTOR inhibitor",
+    "moa": "Inhibits mTOR serine/threonine kinase regulating cell growth",
+    "uses": "Metastatic RCC; AML in tuberous sclerosis",
+    "aes": "Stomatitis, hyperglycemia, hyperlipidemia, pneumonitis, infections",
+    "notes": "Reduces AML tumor size, preserves renal function",
+    "sources": [
+      "61",
+      "62"
+    ]
+  },
+  {
+    "name": "Finerenone",
+    "class": "Non-steroidal MRA",
+    "moa": "Selective MR antagonist; ↓inflammation/fibrosis",
+    "uses": "Proteinuric DKD",
+    "aes": "Hyperkalemia",
+    "notes": "Reduces CKD progression in DKD",
+    "sources": [
+      "35",
+      "49"
+    ]
+  },
+  {
+    "name": "Fludrocortisone",
+    "class": "Mineralocorticoid",
+    "moa": "Aldosterone agonist; ↑Na reabsorption, K/H excretion",
+    "uses": "Type 4 RTA with low aldosterone, adrenal insufficiency",
+    "aes": "HTN, edema, hypokalemia",
+    "notes": "",
+    "sources": [
+      "28"
+    ]
+  },
+  {
+    "name": "Fluoroquinolones",
+    "class": "Antibiotic (quinolone)",
+    "moa": "Inhibit DNA gyrase/topoisomerase IV",
+    "uses": "UTI/cyst infections in PKD",
+    "aes": "Tendon rupture, QT prolongation, C. diff",
+    "notes": "Lipophilic, penetrate cysts",
+    "sources": [
+      "58"
+    ]
+  },
+  {
+    "name": "Fomepizole",
+    "class": "Alcohol dehydrogenase inhibitor",
+    "moa": "Competitively inhibits ADH, blocks toxic alcohol metabolism",
+    "uses": "Methanol, ethylene glycol, propylene glycol toxicity",
+    "aes": "Headache, nausea",
+    "notes": "First-line antidote",
+    "sources": [
+      "28"
+    ]
+  },
+  {
+    "name": "Foscarnet",
+    "class": "Antiviral (pyrophosphate analog)",
+    "moa": "Inhibits viral DNA polymerase",
+    "uses": "CMV, HSV resistant infections",
+    "aes": "Nephrogenic DI, nephrotoxicity, electrolyte disturbances",
+    "notes": "ATN cause",
+    "sources": [
+      "19",
+      "50"
+    ]
+  },
+  {
+    "name": "Fosfomycin",
+    "class": "Phosphonic acid antibiotic",
+    "moa": "Inhibits early peptidoglycan synthesis (MurA)",
+    "uses": "Uncomplicated cystitis",
+    "aes": "Diarrhea, nausea, headache",
+    "notes": "Single-dose; not for pyelonephritis",
+    "sources": [
+      "53"
+    ]
+  },
+  {
+    "name": "Furosemide",
+    "class": "Loop diuretic",
+    "moa": "Blocks NKCC2 in thick ascending limb, impairing medullary gradient",
+    "uses": "Edema (CHF, cirrhosis), pulmonary edema, HTN, hyperkalemia, hypercalcemia, AKI/CKD",
+    "aes": "Hypokalemia, hypocalcemia, hypomagnesemia, metabolic alkalosis, ototoxicity, hyperuricemia, volume depletion",
+    "notes": "Often given with saline in hypervolemic hyponatremia",
+    "sources": [
+      "9",
+      "10",
+      "11",
+      "12",
+      "15",
+      "17",
+      "18",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "41",
+      "46",
+      "48",
+      "50"
+    ]
+  },
+  {
+    "name": "Gemcitabine",
+    "class": "Antimetabolite (pyrimidine analog)",
+    "moa": "Inhibits DNA synthesis as nucleoside analog",
+    "uses": "Bladder cancer (intravesical and systemic)",
+    "aes": "Myelosuppression, flu-like symptoms",
+    "notes": "Used intravesically and with cisplatin",
+    "sources": [
+      "63"
+    ]
+  },
+  {
+    "name": "Gentamicin",
+    "class": "Aminoglycoside",
+    "moa": "Binds 30S ribosome",
+    "uses": "Severe gram-negative infections",
+    "aes": "ATN, ototoxicity, vestibular toxicity",
+    "notes": "Classic ATN cause",
+    "sources": [
+      "50",
+      "52"
+    ]
+  },
+  {
+    "name": "Glyburide (sulfonylurea)",
+    "class": "Sulfonylurea",
+    "moa": "Closes K-ATP channels in beta cells, stimulating insulin release",
+    "uses": "Type 2 diabetes",
+    "aes": "Hypoglycemia, SIADH/hyponatremia",
+    "notes": "SU class causes SIADH",
+    "sources": [
+      "18"
+    ]
+  },
+  {
+    "name": "Gold (auranofin)",
+    "class": "DMARD",
+    "moa": "Immune modulation",
+    "uses": "Rheumatoid arthritis (historic)",
+    "aes": "Membranous nephropathy, rash",
+    "notes": "Classic cause of membranous nephropathy",
+    "sources": [
+      "44"
+    ]
+  },
+  {
+    "name": "Heparin",
+    "class": "Anticoagulant",
+    "moa": "Activates ATIII → inhibits thrombin/Xa",
+    "uses": "Anticoagulation during hemodialysis",
+    "aes": "Bleeding, HIT",
+    "notes": "Prevents dialyzer clotting",
+    "sources": [
+      "36"
+    ]
+  },
+  {
+    "name": "Heroin",
+    "class": "Opioid (illicit)",
+    "moa": "Mu-opioid receptor agonist",
+    "uses": "Illicit",
+    "aes": "FSGS (heroin-associated nephropathy), overdose, addiction",
+    "notes": "Collapsing FSGS cause",
+    "sources": [
+      "42"
+    ]
+  },
+  {
+    "name": "Hydrochlorothiazide",
+    "class": "Thiazide diuretic",
+    "moa": "Blocks Na-Cl cotransporter (NCC) in DCT",
+    "uses": "HTN (1st line), calcium stones, nephrogenic DI, refractory edema",
+    "aes": "Hypokalemia, hyponatremia, hypercalcemia, hyperuricemia/gout, hyperglycemia, hyperlipidemia",
+    "notes": "Common cause of euvolemic hyponatremia",
+    "sources": [
+      "9",
+      "10",
+      "12",
+      "13",
+      "15",
+      "17",
+      "18",
+      "19",
+      "21",
+      "22",
+      "24",
+      "54"
+    ]
+  },
+  {
+    "name": "Hydroxyurea",
+    "class": "Antimetabolite (RNR inhibitor)",
+    "moa": "Inhibits ribonucleotide reductase; ↑HbF",
+    "uses": "Sickle cell disease, CML",
+    "aes": "Myelosuppression, skin changes",
+    "notes": "Reduces SCD complications including RPN",
+    "sources": [
+      "52"
+    ]
+  },
+  {
+    "name": "Ibandronate",
+    "class": "Bisphosphonate",
+    "moa": "Osteoclast inhibition",
+    "uses": "Osteoporosis, hypercalcemia",
+    "aes": "GI upset, ONJ",
+    "notes": "",
+    "sources": [
+      "24"
+    ]
+  },
+  {
+    "name": "Ibuprofen",
+    "class": "NSAID (propionic acid)",
+    "moa": "Nonselective COX inhibition",
+    "uses": "Pain, fever, renal colic",
+    "aes": "AKI, AIN, papillary necrosis, GI bleed",
+    "notes": "Classic NSAID cause of AIN and RPN",
+    "sources": [
+      "41",
+      "51",
+      "52",
+      "54"
+    ]
+  },
+  {
+    "name": "Ifosfamide",
+    "class": "Alkylating chemotherapy",
+    "moa": "DNA cross-linking",
+    "uses": "Sarcomas, lymphomas",
+    "aes": "Hemorrhagic cystitis, Fanconi syndrome, neurotoxicity",
+    "notes": "Use mesna prophylactically",
+    "sources": [
+      "33",
+      "53"
+    ]
+  },
+  {
+    "name": "Imipenem-cilastatin",
+    "class": "Carbapenem",
+    "moa": "Inhibits cell wall synthesis",
+    "uses": "Severe broad-spectrum infections",
+    "aes": "Seizures, GI upset",
+    "notes": "MCQ option",
+    "sources": [
+      "53"
+    ]
+  },
+  {
+    "name": "Indapamide",
+    "class": "Thiazide-like diuretic",
+    "moa": "Blocks NCC in DCT",
+    "uses": "HTN",
+    "aes": "Hypokalemia, hyponatremia",
+    "notes": "",
+    "sources": [
+      "13"
+    ]
+  },
+  {
+    "name": "Indinavir",
+    "class": "HIV protease inhibitor",
+    "moa": "Inhibits HIV protease",
+    "uses": "HIV",
+    "aes": "Crystalluria, nephrolithiasis, AKI",
+    "notes": "Drug-induced kidney stones",
+    "sources": [
+      "33",
+      "54"
+    ]
+  },
+  {
+    "name": "Indomethacin",
+    "class": "NSAID",
+    "moa": "Inhibits COX, ↓prostaglandins",
+    "uses": "Bartter syndrome, pain/inflammation",
+    "aes": "GI bleed, AKI, hyperkalemia",
+    "notes": "Used in Bartter management",
+    "sources": [
+      "26"
+    ]
+  },
+  {
+    "name": "Insulin",
+    "class": "Pancreatic hormone",
+    "moa": "Activates insulin receptor, drives glucose into cells; stops ketogenesis",
+    "uses": "Diabetes; acute hyperkalemia (with dextrose)",
+    "aes": "Hypoglycemia, hypokalemia",
+    "notes": "DKA: low insulin → hyperkalemia",
+    "sources": [
+      "11",
+      "18",
+      "22",
+      "23",
+      "28",
+      "40",
+      "49"
+    ]
+  },
+  {
+    "name": "Interferon",
+    "class": "Cytokine immunomodulator",
+    "moa": "Activates antiviral/immune signaling",
+    "uses": "Hepatitis, MS, malignancy",
+    "aes": "FSGS, flu-like sx, depression, cytopenias",
+    "notes": "Secondary FSGS cause",
+    "sources": [
+      "42"
+    ]
+  },
+  {
+    "name": "Interleukin-2 (Aldesleukin)",
+    "class": "Recombinant cytokine",
+    "moa": "Stimulates T-cell and NK-cell proliferation",
+    "uses": "Metastatic RCC (high-dose)",
+    "aes": "Capillary leak syndrome, hypotension, arrhythmias, renal/multi-organ toxicity",
+    "notes": "Significant systemic toxicity",
+    "sources": [
+      "61"
+    ]
+  },
+  {
+    "name": "Inulin",
+    "class": "Exogenous GFR marker",
+    "moa": "Freely filtered, not reabsorbed/secreted",
+    "uses": "Gold-standard GFR measurement (research)",
+    "aes": "None significant",
+    "notes": "IV infusion",
+    "sources": [
+      "6",
+      "7"
+    ]
+  },
+  {
+    "name": "Iohexol",
+    "class": "Iodinated contrast/GFR marker",
+    "moa": "Freely filtered exogenous marker",
+    "uses": "Alternative GFR measurement",
+    "aes": "Contrast-related; rare nephrotoxicity",
+    "notes": "Direct GFR measurement",
+    "sources": [
+      "6"
+    ]
+  },
+  {
+    "name": "Iothalamate",
+    "class": "Iodinated GFR marker",
+    "moa": "Freely filtered exogenous marker",
+    "uses": "Direct GFR measurement",
+    "aes": "Contrast-related",
+    "notes": "Research/specialized use",
+    "sources": [
+      "6"
+    ]
+  },
+  {
+    "name": "Ipilimumab",
+    "class": "Anti-CTLA-4 monoclonal antibody",
+    "moa": "Blocks CTLA-4, enhances T-cell activation",
+    "uses": "Renal cell carcinoma (with nivolumab)",
+    "aes": "Severe immune-related AEs (colitis, hypophysitis)",
+    "notes": "Used combined with nivolumab",
+    "sources": [
+      "61"
+    ]
+  },
+  {
+    "name": "Iron",
+    "class": "Mineral supplement",
+    "moa": "Provides elemental iron",
+    "uses": "Iron deficiency anemia",
+    "aes": "AGMA, GI bleed in overdose",
+    "notes": "I in MUDPILES (toxicity)",
+    "sources": [
+      "28"
+    ]
+  },
+  {
+    "name": "Isoniazid",
+    "class": "Antimycobacterial",
+    "moa": "Inhibits mycolic acid synthesis",
+    "uses": "Tuberculosis",
+    "aes": "Lactic acidosis, hepatotoxicity, neuropathy",
+    "notes": "I in MUDPILES",
+    "sources": [
+      "28"
+    ]
+  },
+  {
+    "name": "IV iron",
+    "class": "Iron supplement",
+    "moa": "Replaces iron stores",
+    "uses": "Iron deficiency in CKD anemia",
+    "aes": "GI upset (oral), infusion reactions (IV)",
+    "notes": "IV used in advanced CKD",
+    "sources": [
+      "35"
+    ]
+  },
+  {
+    "name": "IV radiocontrast",
+    "class": "Iodinated contrast agent",
+    "moa": "Vasoconstriction and direct tubular toxicity",
+    "uses": "Imaging enhancement",
+    "aes": "Contrast-induced AKI/ATN, allergic reactions",
+    "notes": "Cause of intrarenal AKI",
+    "sources": [
+      "34",
+      "50",
+      "51",
+      "52"
+    ]
+  },
+  {
+    "name": "Ketoconazole",
+    "class": "Azole antifungal",
+    "moa": "Inhibits ergosterol synthesis; potent CYP3A4 inhibitor",
+    "uses": "Fungal infections",
+    "aes": "Hepatotoxicity",
+    "notes": "CYP3A4 inhibitor - increases vaptan levels",
+    "sources": [
+      "21"
+    ]
+  },
+  {
+    "name": "Lactated Ringer's",
+    "class": "Isotonic balanced crystalloid",
+    "moa": "Expands ECF; lactate is metabolized as buffer",
+    "uses": "Volume resuscitation, isotonic fluid replacement",
+    "aes": "Mild hyperkalemia risk",
+    "notes": "Na 130, Cl 109, K 4, lactate buffer",
+    "sources": [
+      "16"
+    ]
+  },
+  {
+    "name": "Lanthanum carbonate",
+    "class": "Non-calcium phosphate binder",
+    "moa": "Binds dietary phosphate",
+    "uses": "Hyperphosphatemia in CKD",
+    "aes": "GI upset",
+    "notes": "",
+    "sources": [
+      "35"
+    ]
+  },
+  {
+    "name": "Laxatives",
+    "class": "GI motility agent",
+    "moa": "Various: stimulate or osmotic increase in GI motility",
+    "uses": "Constipation",
+    "aes": "Hypokalemia (chronic abuse)",
+    "notes": "Diarrhea-related hypoK",
+    "sources": [
+      "22"
+    ]
+  },
+  {
+    "name": "Lead",
+    "class": "Heavy metal toxin",
+    "moa": "PT cellular damage",
+    "uses": "None",
+    "aes": "Fanconi, neuropathy, anemia",
+    "notes": "",
+    "sources": [
+      "33"
+    ]
+  },
+  {
+    "name": "Levofloxacin",
+    "class": "Fluoroquinolone",
+    "moa": "Inhibits DNA gyrase/topoisomerase IV",
+    "uses": "Complicated UTI, pneumonia",
+    "aes": "Tendinopathy, QT prolongation",
+    "notes": "Pyelonephritis alternative",
+    "sources": [
+      "53"
+    ]
+  },
+  {
+    "name": "Liraglutide",
+    "class": "GLP-1 receptor agonist",
+    "moa": "Activates GLP-1 receptor",
+    "uses": "T2DM, obesity",
+    "aes": "Nausea, pancreatitis",
+    "notes": "Daily injection",
+    "sources": [
+      "49"
+    ]
+  },
+  {
+    "name": "Lisinopril",
+    "class": "ACE inhibitor",
+    "moa": "Blocks ACE, reducing angiotensin II and aldosterone",
+    "uses": "HTN, slows PKD progression, proteinuria",
+    "aes": "Hyperkalemia, cough, angioedema, AKI, teratogenic",
+    "notes": "Caution with K-sparing diuretics",
+    "sources": [
+      "11",
+      "12",
+      "13",
+      "15",
+      "21",
+      "58"
+    ]
+  },
+  {
+    "name": "Lithium",
+    "class": "Mood stabilizer",
+    "moa": "Interferes with ADH signaling in collecting duct; enters cells via ENaC",
+    "uses": "Bipolar disorder",
+    "aes": "Nephrogenic DI, polyuria, polydipsia, hypernatremia",
+    "notes": "Damage usually reversible if stopped within ~10 yr; amiloride blocks uptake",
+    "sources": [
+      "13",
+      "19",
+      "28",
+      "41"
+    ]
+  },
+  {
+    "name": "Losartan",
+    "class": "ARB",
+    "moa": "Selective AT1 receptor antagonist",
+    "uses": "HTN, DKD, Alport syndrome",
+    "aes": "Hyperkalemia, AKI, teratogenic",
+    "notes": "Slows progression in Alport",
+    "sources": [
+      "11",
+      "15",
+      "48"
+    ]
+  },
+  {
+    "name": "Macrolide antibiotics",
+    "class": "Antibiotic",
+    "moa": "Bind 50S ribosomal subunit; CYP3A4 inhibitors",
+    "uses": "Bacterial infections",
+    "aes": "QT prolongation",
+    "notes": "CYP3A4 inhibitors - interact with vaptans",
+    "sources": [
+      "21"
+    ]
+  },
+  {
+    "name": "Magnesium",
+    "class": "Electrolyte",
+    "moa": "Cofactor; inhibits ROMK-mediated K secretion",
+    "uses": "Hypomagnesemia, refractory hypokalemia, arrhythmia",
+    "aes": "Hypermagnesemia, hypotension",
+    "notes": "Replete with K in refractory hypoK",
+    "sources": [
+      "22"
+    ]
+  },
+  {
+    "name": "Magnesium chloride",
+    "class": "Oral Mg salt",
+    "moa": "Oral Mg replacement",
+    "uses": "Mild hypoMg",
+    "aes": "GI upset, diarrhea",
+    "notes": "",
+    "sources": [
+      "25"
+    ]
+  },
+  {
+    "name": "Magnesium citrate",
+    "class": "Oral Mg salt",
+    "moa": "Oral Mg; osmotic laxative",
+    "uses": "Mg supplementation, constipation",
+    "aes": "Diarrhea; hypermagnesemia in CKD",
+    "notes": "",
+    "sources": [
+      "25"
+    ]
+  },
+  {
+    "name": "Magnesium oxide",
+    "class": "Oral Mg salt",
+    "moa": "Oral Mg replacement",
+    "uses": "Mild/asymptomatic hypoMg",
+    "aes": "GI upset, diarrhea",
+    "notes": "Preferred oral form",
+    "sources": [
+      "25"
+    ]
+  },
+  {
+    "name": "Magnesium sulfate",
+    "class": "Mineral/electrolyte (IV)",
+    "moa": "Replenishes Mg stores; cofactor for Na/K-ATPase",
+    "uses": "Severe hypoMg, torsades, preeclampsia/eclampsia",
+    "aes": "Hyporeflexia, lethargy, hypotension, respiratory depression",
+    "notes": "IV preferred for severe deficiency",
+    "sources": [
+      "25"
+    ]
+  },
+  {
+    "name": "Mannitol",
+    "class": "Osmotic diuretic",
+    "moa": "Filtered but not reabsorbed osmole that draws water from cells/ICF into ECF and urine",
+    "uses": "Cerebral edema, elevated ICP, hypertonic fluid therapy",
+    "aes": "Volume depletion, pulmonary edema, hyponatremia, hypernatremia, AKI",
+    "notes": "20% solution; effective osmole",
+    "sources": [
+      "14",
+      "16",
+      "19",
+      "26"
+    ]
+  },
+  {
+    "name": "MDMA (Ecstasy)",
+    "class": "Recreational drug",
+    "moa": "Promotes serotonin/dopamine release",
+    "uses": "Recreational (illicit)",
+    "aes": "SIADH, severe hyponatremia, hyperthermia",
+    "notes": "Causes ADH release",
+    "sources": [
+      "18"
+    ]
+  },
+  {
+    "name": "Mercury",
+    "class": "Heavy metal toxin",
+    "moa": "PT cellular damage",
+    "uses": "None",
+    "aes": "Fanconi, nephrotoxicity",
+    "notes": "",
+    "sources": [
+      "33"
+    ]
+  },
+  {
+    "name": "Meropenem",
+    "class": "Carbapenem",
+    "moa": "Inhibits cell wall synthesis",
+    "uses": "Severe gram-negative/sepsis",
+    "aes": "Seizures (rare), GI upset",
+    "notes": "For Pseudomonas or sepsis",
+    "sources": [
+      "53"
+    ]
+  },
+  {
+    "name": "Mesalamine (5-ASA)",
+    "class": "Aminosalicylate",
+    "moa": "Inhibits PG/leukotriene production in gut",
+    "uses": "IBD",
+    "aes": "AIN, interstitial nephritis",
+    "notes": "Cause of AIN",
+    "sources": [
+      "51"
+    ]
+  },
+  {
+    "name": "Metformin",
+    "class": "Biguanide antihyperglycemic",
+    "moa": "↓hepatic gluconeogenesis, ↑peripheral insulin sensitivity",
+    "uses": "T2DM, prediabetes",
+    "aes": "GI upset, lactic acidosis, B12 deficiency",
+    "notes": "M in MUDPILES",
+    "sources": [
+      "28",
+      "40",
+      "49"
+    ]
+  },
+  {
+    "name": "Methanol",
+    "class": "Toxic alcohol",
+    "moa": "Metabolized by ADH to formic acid causing AGMA",
+    "uses": "None (toxin)",
+    "aes": "Blindness, AGMA, ↑osmolar gap",
+    "notes": "M in MUDPILES; treat with fomepizole",
+    "sources": [
+      "28"
+    ]
+  },
+  {
+    "name": "Methazolamide",
+    "class": "Carbonic anhydrase inhibitor (oral)",
+    "moa": "Systemic CA inhibition",
+    "uses": "Glaucoma",
+    "aes": "Similar to acetazolamide",
+    "notes": "Oral",
+    "sources": [
+      "32"
+    ]
+  },
+  {
+    "name": "Methotrexate",
+    "class": "Antimetabolite (DHFR inhibitor)",
+    "moa": "Inhibits DHFR, blocking folate metabolism and DNA synthesis",
+    "uses": "M-VAC regimen for bladder cancer",
+    "aes": "Myelosuppression, mucositis, hepatotoxicity, nephrotoxicity",
+    "notes": "Renally cleared; avoid in CKD",
+    "sources": [
+      "7",
+      "40",
+      "47",
+      "63"
+    ]
+  },
+  {
+    "name": "Methylprednisolone",
+    "class": "Glucocorticoid",
+    "moa": "Glucocorticoid receptor agonist",
+    "uses": "Anti-GBM, RPGN, severe AIN, pulse therapy",
+    "aes": "Hyperglycemia, infection, HTN",
+    "notes": "IV pulse for anti-GBM/Goodpasture",
+    "sources": [
+      "47",
+      "51"
+    ]
+  },
+  {
+    "name": "Metolazone",
+    "class": "Thiazide-like diuretic",
+    "moa": "Blocks NCC in DCT",
+    "uses": "Refractory edema with loop diuretic",
+    "aes": "Hypokalemia, volume depletion",
+    "notes": "Used as adjunct to loops",
+    "sources": [
+      "13"
+    ]
+  },
+  {
+    "name": "Metoprolol",
+    "class": "Beta-1 selective blocker",
+    "moa": "Blocks beta-1 adrenergic receptor",
+    "uses": "HTN, CAD, HF",
+    "aes": "Bradycardia, fatigue, bronchospasm",
+    "notes": "MCQ option",
+    "sources": [
+      "41",
+      "48"
+    ]
+  },
+  {
+    "name": "Mirabegron",
+    "class": "β3 adrenergic agonist",
+    "moa": "Stimulates β3 receptors on detrusor, promotes relaxation",
+    "uses": "OAB/urge incontinence (esp if antimuscarinic intolerance)",
+    "aes": "Hypertension, headache, tachycardia/palpitations",
+    "notes": "Alternative to antimuscarinics",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Morphine",
+    "class": "Opioid agonist",
+    "moa": "Mu-opioid agonist",
+    "uses": "Severe pain",
+    "aes": "Respiratory depression, hypotension, constipation",
+    "notes": "Causes respiratory acidosis",
+    "sources": [
+      "30"
+    ]
+  },
+  {
+    "name": "Mycophenolate",
+    "class": "Antimetabolite immunosuppressant",
+    "moa": "Inhibits IMPDH, blocking lymphocyte proliferation",
+    "uses": "Transplant rejection prophylaxis",
+    "aes": "GI upset, leukopenia, infection",
+    "notes": "Standard maintenance",
+    "sources": [
+      "36"
+    ]
+  },
+  {
+    "name": "Mycophenolate mofetil",
+    "class": "Immunosuppressant (IMPDH inhibitor)",
+    "moa": "Inhibits IMPDH → blocks lymphocyte proliferation",
+    "uses": "FSGS, lupus nephritis, anti-GBM, transplant",
+    "aes": "GI upset, leukopenia, infection",
+    "notes": "Steroid-sparing",
+    "sources": [
+      "42",
+      "47"
+    ]
+  },
+  {
+    "name": "Nadolol",
+    "class": "Non-selective beta blocker",
+    "moa": "Blocks beta-1 and beta-2 receptors",
+    "uses": "Aortic dissection risk reduction in PKD",
+    "aes": "Bradycardia, bronchospasm",
+    "notes": "Long-acting non-selective BB",
+    "sources": [
+      "58"
+    ]
+  },
+  {
+    "name": "Naloxone",
+    "class": "Opioid antagonist",
+    "moa": "Competitive mu-opioid receptor antagonist",
+    "uses": "Opioid overdose",
+    "aes": "Acute withdrawal",
+    "notes": "Reverses respiratory depression",
+    "sources": [
+      "30"
+    ]
+  },
+  {
+    "name": "Naproxen",
+    "class": "NSAID (propionic acid)",
+    "moa": "Nonselective COX inhibition",
+    "uses": "Pain, inflammation",
+    "aes": "AKI, AIN, GI bleed",
+    "notes": "AIN cause",
+    "sources": [
+      "51"
+    ]
+  },
+  {
+    "name": "Nitrofurantoin",
+    "class": "Urinary antibiotic",
+    "moa": "Reduced to reactive intermediates damaging bacterial DNA",
+    "uses": "Uncomplicated cystitis",
+    "aes": "Pulmonary fibrosis, hepatotoxicity, neuropathy, brown urine",
+    "notes": "First-line uncomplicated cystitis",
+    "sources": [
+      "53"
+    ]
+  },
+  {
+    "name": "Nivolumab",
+    "class": "PD-1 immune checkpoint inhibitor",
+    "moa": "Blocks PD-1, restoring T-cell antitumor response",
+    "uses": "Renal cell carcinoma (with ipilimumab)",
+    "aes": "Immune-related AEs (colitis, pneumonitis, hepatitis, endocrinopathies)",
+    "notes": "Combination immunotherapy for RCC",
+    "sources": [
+      "51",
+      "61"
+    ]
+  },
+  {
+    "name": "Norepinephrine",
+    "class": "Sympathomimetic (alpha agonist)",
+    "moa": "Alpha-1 adrenergic agonist causing vasoconstriction",
+    "uses": "Distributive/septic shock",
+    "aes": "Peripheral ischemia, hypertension",
+    "notes": "First-line vasopressor in shock",
+    "sources": [
+      "20"
+    ]
+  },
+  {
+    "name": "Normal saline",
+    "class": "IV crystalloid",
+    "moa": "Volume expansion enhances renal K/Ca excretion",
+    "uses": "Volume depletion, hyperkalemia, hypercalcemia",
+    "aes": "Volume overload, hyperchloremic acidosis",
+    "notes": "First step for hypercalcemia",
+    "sources": [
+      "23",
+      "24",
+      "34"
+    ]
+  },
+  {
+    "name": "NSAIDs",
+    "class": "Nonsteroidal anti-inflammatory drugs",
+    "moa": "Inhibit COX, blocking prostaglandin-mediated afferent vasodilation",
+    "uses": "Pain, inflammation, fever",
+    "aes": "Prerenal AKI, CKD, hyperkalemia, hemorrhagic cystitis risk",
+    "notes": "Avoid in CKD; cause nephrotic syndrome, AIN, analgesic nephropathy, papillary necrosis",
+    "sources": [
+      "6",
+      "7",
+      "8",
+      "12",
+      "23",
+      "34",
+      "35",
+      "40",
+      "41",
+      "43",
+      "44",
+      "49",
+      "51",
+      "52",
+      "54"
+    ]
+  },
+  {
+    "name": "Ofloxacin",
+    "class": "Fluoroquinolone antibiotic",
+    "moa": "Inhibits DNA gyrase/topoisomerase IV",
+    "uses": "Bacterial infections",
+    "aes": "Nephrogenic DI",
+    "notes": "",
+    "sources": [
+      "19"
+    ]
+  },
+  {
+    "name": "Opioids",
+    "class": "Mu-opioid receptor agonist",
+    "moa": "Activate mu opioid receptors",
+    "uses": "Severe pain (renal colic)",
+    "aes": "Constipation, respiratory depression, dependence",
+    "notes": "Adjunct for stone pain",
+    "sources": [
+      "54"
+    ]
+  },
+  {
+    "name": "Oral phosphate",
+    "class": "Electrolyte supplement",
+    "moa": "Replaces phosphate",
+    "uses": "Hypophosphatemia in Fanconi",
+    "aes": "Diarrhea, hyperphosphatemia",
+    "notes": "",
+    "sources": [
+      "33"
+    ]
+  },
+  {
+    "name": "Oxybutynin",
+    "class": "Anticholinergic (antimuscarinic)",
+    "moa": "Blocks M3 receptors on detrusor, reduces involuntary contractions",
+    "uses": "Urge incontinence, OAB, spastic neurogenic bladder",
+    "aes": "Dry mouth, constipation, blurred vision, urinary retention, cognitive effects",
+    "notes": "Avoid in narrow-angle glaucoma",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Oxygen",
+    "class": "Medical gas",
+    "moa": "↑FiO2 to improve oxygenation",
+    "uses": "Hypoxemia",
+    "aes": "O2 toxicity in COPD with chronic hypercapnia",
+    "notes": "",
+    "sources": [
+      "31"
+    ]
+  },
+  {
+    "name": "Paclitaxel",
+    "class": "Taxane (antimicrotubule)",
+    "moa": "Stabilizes microtubules, blocks mitosis",
+    "uses": "Muscle-invasive bladder cancer",
+    "aes": "Peripheral neuropathy, myelosuppression, hypersensitivity",
+    "notes": "Used with cisplatin",
+    "sources": [
+      "63"
+    ]
+  },
+  {
+    "name": "Pamidronate",
+    "class": "Bisphosphonate",
+    "moa": "Inhibits osteoclast resorption",
+    "uses": "Hypercalcemia of malignancy",
+    "aes": "Collapsing FSGS, nephrotoxicity",
+    "notes": "Classic FSGS-causing bisphosphonate",
+    "sources": [
+      "24",
+      "41"
+    ]
+  },
+  {
+    "name": "Para-aminohippuric acid (PAH)",
+    "class": "Exogenous RPF marker",
+    "moa": "Filtered and secreted by OAT; ~90% extracted",
+    "uses": "Effective renal plasma flow estimation",
+    "aes": "Minimal",
+    "notes": "Research use",
+    "sources": [
+      "7"
+    ]
+  },
+  {
+    "name": "Patiromer",
+    "class": "K+ binder",
+    "moa": "Binds K in GI tract (exchanges for Ca)",
+    "uses": "Chronic hyperkalemia",
+    "aes": "Hypomagnesemia, constipation",
+    "notes": "Onset 4-7 h",
+    "sources": [
+      "23"
+    ]
+  },
+  {
+    "name": "Pembrolizumab",
+    "class": "Anti-PD-1 monoclonal antibody",
+    "moa": "Blocks PD-1, restores antitumor immunity",
+    "uses": "RCC (with axitinib); bladder cancer (with enfortumab)",
+    "aes": "Immune-related AEs (colitis, pneumonitis, thyroiditis)",
+    "notes": "Checkpoint inhibitor",
+    "sources": [
+      "61",
+      "63"
+    ]
+  },
+  {
+    "name": "Penicillamine",
+    "class": "Chelating agent / DMARD",
+    "moa": "Chelates copper; reduces cystine excretion",
+    "uses": "Wilson disease, RA, cystinuria",
+    "aes": "Membranous nephropathy, nephrotic syndrome, cytopenias",
+    "notes": "Classic cause of membranous nephropathy",
+    "sources": [
+      "40",
+      "44",
+      "54"
+    ]
+  },
+  {
+    "name": "Penicillin",
+    "class": "Beta-lactam antibiotic",
+    "moa": "Inhibits PBPs → blocks peptidoglycan cross-linking",
+    "uses": "Strep, syphilis",
+    "aes": "AIN, anaphylaxis, rash",
+    "notes": "Classic AIN trigger",
+    "sources": [
+      "46",
+      "51",
+      "52"
+    ]
+  },
+  {
+    "name": "Penicillin G",
+    "class": "Beta-lactam antibiotic",
+    "moa": "Inhibits cell wall synthesis; as nonreabsorbable anion ↑distal Na delivery and K secretion",
+    "uses": "Bacterial infections",
+    "aes": "Hypokalemia (high doses)",
+    "notes": "Renal K wasting due to anion effect",
+    "sources": [
+      "22"
+    ]
+  },
+  {
+    "name": "Penicillins",
+    "class": "Beta-lactam antibiotic",
+    "moa": "Inhibit cell wall synthesis; secreted by OAT",
+    "uses": "Bacterial infections",
+    "aes": "Allergy, interstitial nephritis",
+    "notes": "Dose adjust in renal failure",
+    "sources": [
+      "7"
+    ]
+  },
+  {
+    "name": "Pentamidine",
+    "class": "Antiprotozoal/antifungal",
+    "moa": "Inhibits DNA/RNA/protein synthesis in parasites",
+    "uses": "PCP, leishmaniasis",
+    "aes": "Nephrotoxicity, hypoglycemia, pancreatitis",
+    "notes": "ATN cause",
+    "sources": [
+      "50"
+    ]
+  },
+  {
+    "name": "Phenazopyridine",
+    "class": "Urinary analgesic / azo dye",
+    "moa": "Topical anesthetic on urinary mucosa",
+    "uses": "UTI-associated dysuria",
+    "aes": "Orange/red urine, methemoglobinemia",
+    "notes": "Discolors urine",
+    "sources": [
+      "39"
+    ]
+  },
+  {
+    "name": "Phenylephrine",
+    "class": "α1 adrenergic agonist",
+    "moa": "Stimulates α1 receptors, contracts bladder neck/urethra smooth muscle",
+    "uses": "Historical use for stress incontinence",
+    "aes": "Hypertension, reflex bradycardia",
+    "notes": "No longer used; only mildly efficacious",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Phosphate (oral/IV)",
+    "class": "Electrolyte replacement",
+    "moa": "Replaces phosphate",
+    "uses": "Hypophosphatemia",
+    "aes": "Hypocalcemia, diarrhea",
+    "notes": "IV for severe symptomatic deficiency",
+    "sources": [
+      "24"
+    ]
+  },
+  {
+    "name": "Piperacillin-tazobactam",
+    "class": "Antipseudomonal penicillin + BLI",
+    "moa": "Inhibits cell wall synthesis; tazobactam blocks beta-lactamase",
+    "uses": "Pseudomonas, sepsis, severe pyelonephritis",
+    "aes": "AIN, rash, AKI",
+    "notes": "Broad-spectrum",
+    "sources": [
+      "22",
+      "53"
+    ]
+  },
+  {
+    "name": "Plasma-Lyte",
+    "class": "Isotonic balanced crystalloid",
+    "moa": "Physiologic-like balanced crystalloid for ECF expansion",
+    "uses": "Volume replacement",
+    "aes": "Few",
+    "notes": "Na 140, Cl 98, K 5; gluconate/acetate buffer",
+    "sources": [
+      "16"
+    ]
+  },
+  {
+    "name": "Platinum chemotherapeutics",
+    "class": "Chemotherapy",
+    "moa": "DNA crosslinking; nephrotoxic and ototoxic",
+    "uses": "Various cancers",
+    "aes": "Nephrotoxicity, ototoxicity",
+    "notes": "Avoid combination with loops",
+    "sources": [
+      "12"
+    ]
+  },
+  {
+    "name": "Potassium acetate",
+    "class": "Electrolyte/alkali",
+    "moa": "Provides K and acetate",
+    "uses": "IV when Cl undesired; hyperchloremic acidosis",
+    "aes": "Alkalosis",
+    "notes": "Compatible with Ca-containing fluids",
+    "sources": [
+      "22"
+    ]
+  },
+  {
+    "name": "Potassium bicarbonate",
+    "class": "Electrolyte/alkali",
+    "moa": "Replaces K and provides HCO3",
+    "uses": "Hypokalemia with metabolic acidosis (RTA)",
+    "aes": "Alkalosis",
+    "notes": "Oral",
+    "sources": [
+      "22"
+    ]
+  },
+  {
+    "name": "Potassium chloride",
+    "class": "Electrolyte replacement",
+    "moa": "Replaces potassium",
+    "uses": "Hypokalemia repletion",
+    "aes": "GI irritation, hyperkalemia",
+    "notes": "Refractory hypoK unresponsive without Mg correction",
+    "sources": [
+      "22",
+      "25"
+    ]
+  },
+  {
+    "name": "Potassium citrate",
+    "class": "Alkalinizing K supplement",
+    "moa": "Metabolized to bicarbonate; ↑urine citrate",
+    "uses": "Hypokalemia, hypocitraturia, Ca-oxalate/uric acid stone prevention",
+    "aes": "Hyperkalemia, GI upset",
+    "notes": "Increases urine calcium solubility",
+    "sources": [
+      "22",
+      "33",
+      "54"
+    ]
+  },
+  {
+    "name": "Potassium gluconate",
+    "class": "Electrolyte replacement (OTC)",
+    "moa": "Provides K",
+    "uses": "Mild hypokalemia, maintenance",
+    "aes": "GI upset",
+    "notes": "OTC; lower elemental K",
+    "sources": [
+      "22"
+    ]
+  },
+  {
+    "name": "Potassium phosphate",
+    "class": "Electrolyte replacement",
+    "moa": "Provides K and phosphate",
+    "uses": "Hypokalemia + hypophosphatemia",
+    "aes": "Hyperphosphatemia, hypocalcemia",
+    "notes": "Oral or IV",
+    "sources": [
+      "22"
+    ]
+  },
+  {
+    "name": "Praziquantel",
+    "class": "Antiparasitic (anthelmintic)",
+    "moa": "↑parasite membrane Ca permeability → spastic paralysis",
+    "uses": "Schistosomiasis, other trematodes",
+    "aes": "Nausea, headache, dizziness, urticaria, transient hepatitis",
+    "notes": "First-line for all Schistosoma species",
+    "sources": [
+      "55"
+    ]
+  },
+  {
+    "name": "Prazosin",
+    "class": "Alpha-1 adrenergic blocker",
+    "moa": "Blocks α1 receptors",
+    "uses": "BPH, HTN",
+    "aes": "Orthostatic hypotension, dizziness, syncope",
+    "notes": "First-dose hypotension",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Prednisone",
+    "class": "Corticosteroid",
+    "moa": "Binds glucocorticoid receptor; suppresses inflammation/immunity",
+    "uses": "MCD, FSGS, MN, nephritic syndromes, AIN, autoimmune",
+    "aes": "Hyperglycemia, osteoporosis, infection, weight gain",
+    "notes": "Part of post-transplant regimen",
+    "sources": [
+      "36",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "49",
+      "51",
+      "54"
+    ]
+  },
+  {
+    "name": "Propranolol",
+    "class": "Non-selective beta blocker",
+    "moa": "Blocks beta-1 and beta-2 adrenergic receptors",
+    "uses": "Aortic dissection risk reduction in PKD",
+    "aes": "Bradycardia, bronchospasm, fatigue",
+    "notes": "Used for aneurysm/dissection prevention",
+    "sources": [
+      "58"
+    ]
+  },
+  {
+    "name": "Propylene glycol",
+    "class": "Toxic alcohol/solvent",
+    "moa": "Metabolized to lactic acid by ADH",
+    "uses": "Drug vehicle",
+    "aes": "AGMA, lactic acidosis",
+    "notes": "P in MUDPILES",
+    "sources": [
+      "28"
+    ]
+  },
+  {
+    "name": "Proton pump inhibitors",
+    "class": "PPI",
+    "moa": "Irreversibly inhibit gastric H/K-ATPase; also gut TRPM6/7",
+    "uses": "GERD, peptic ulcer disease",
+    "aes": "AIN, hypomagnesemia, C. difficile, B12 deficiency",
+    "notes": "Common AIN cause",
+    "sources": [
+      "25",
+      "51"
+    ]
+  },
+  {
+    "name": "Rifampin",
+    "class": "RNA polymerase inhibitor antibiotic",
+    "moa": "Inhibits bacterial DNA-dependent RNA polymerase",
+    "uses": "TB, meningococcal prophylaxis",
+    "aes": "Nephrogenic DI, hepatotoxicity, CYP induction",
+    "notes": "AIN cause",
+    "sources": [
+      "19",
+      "51"
+    ]
+  },
+  {
+    "name": "Risedronate",
+    "class": "Bisphosphonate",
+    "moa": "Osteoclast inhibition",
+    "uses": "Osteoporosis, hypercalcemia",
+    "aes": "GI upset, ONJ",
+    "notes": "",
+    "sources": [
+      "24"
+    ]
+  },
+  {
+    "name": "Rituximab",
+    "class": "Anti-CD20 monoclonal antibody",
+    "moa": "Depletes CD20+ B cells",
+    "uses": "MN, MPGN, ANCA vasculitis, anti-GBM",
+    "aes": "Infusion reactions, infections (PML), hypogammaglobulinemia",
+    "notes": "Increasingly first-line for MN",
+    "sources": [
+      "43",
+      "44",
+      "47"
+    ]
+  },
+  {
+    "name": "Semaglutide",
+    "class": "GLP-1 receptor agonist",
+    "moa": "Activates GLP-1 receptor",
+    "uses": "T2DM, obesity, DKD",
+    "aes": "Nausea, vomiting, pancreatitis",
+    "notes": "Weekly injection or oral",
+    "sources": [
+      "49"
+    ]
+  },
+  {
+    "name": "Sevelamer",
+    "class": "Phosphate binder (non-calcium)",
+    "moa": "Binds phosphate in GI tract",
+    "uses": "Hyperphosphatemia in CKD",
+    "aes": "GI upset, metabolic acidosis",
+    "notes": "Avoids hypercalcemia",
+    "sources": [
+      "24",
+      "35"
+    ]
+  },
+  {
+    "name": "SGLT2 inhibitors",
+    "class": "Sodium-glucose cotransporter-2 inhibitor",
+    "moa": "Block SGLT2 → glycosuria, natriuresis",
+    "uses": "T2DM, DKD, FSGS, HF",
+    "aes": "UTIs, mycotic infections, euglycemic DKA",
+    "notes": "Renoprotective",
+    "sources": [
+      "42",
+      "49"
+    ]
+  },
+  {
+    "name": "Sirolimus",
+    "class": "mTOR inhibitor",
+    "moa": "Inhibits mTOR, blocking T-cell proliferation",
+    "uses": "Transplant rejection prophylaxis",
+    "aes": "Hyperlipidemia, poor wound healing, cytopenias",
+    "notes": "Post-transplant",
+    "sources": [
+      "36"
+    ]
+  },
+  {
+    "name": "Sodium bicarbonate",
+    "class": "Alkalinizing agent",
+    "moa": "Corrects acidosis; H exits cells in exchange for K entry",
+    "uses": "Metabolic acidosis, uric acid stone dissolution",
+    "aes": "Hypernatremia, volume overload, hypokalemia",
+    "notes": "Better when acidosis present",
+    "sources": [
+      "6",
+      "23",
+      "28",
+      "30",
+      "33",
+      "54"
+    ]
+  },
+  {
+    "name": "Sodium polystyrene sulfonate (Kayexalate)",
+    "class": "Cation exchange resin",
+    "moa": "Exchanges Na for K in GI tract",
+    "uses": "Hyperkalemia (K removal)",
+    "aes": "GI necrosis, constipation, sodium overload",
+    "notes": "Slow onset; controversial safety",
+    "sources": [
+      "23"
+    ]
+  },
+  {
+    "name": "Sodium zirconium cyclosilicate",
+    "class": "K+ binder",
+    "moa": "Selectively traps K in GI in exchange for Na/H",
+    "uses": "Hyperkalemia (acute and chronic)",
+    "aes": "Edema, hypokalemia",
+    "notes": "Onset ~1 h",
+    "sources": [
+      "23"
+    ]
+  },
+  {
+    "name": "Solifenacin",
+    "class": "Anticholinergic (antimuscarinic)",
+    "moa": "Selective M3 receptor antagonist",
+    "uses": "Urge incontinence, OAB",
+    "aes": "Dry mouth, constipation, blurred vision",
+    "notes": "M3-selective",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Spironolactone",
+    "class": "K-sparing diuretic (aldosterone antagonist)",
+    "moa": "Antagonizes mineralocorticoid receptor in collecting duct",
+    "uses": "HFrEF, hyperaldosteronism, ascites/cirrhosis, HTN, hirsutism/PCOS",
+    "aes": "Hyperkalemia, gynecomastia, ↓libido, type 4 RTA, metabolic acidosis",
+    "notes": "DOC for hypoK from primary hyperaldosteronism",
+    "sources": [
+      "12",
+      "14",
+      "15",
+      "21",
+      "22",
+      "23",
+      "28",
+      "49"
+    ]
+  },
+  {
+    "name": "SSRIs",
+    "class": "Antidepressant (selective serotonin reuptake inhibitor)",
+    "moa": "Inhibit serotonin reuptake at synapse",
+    "uses": "Depression, anxiety",
+    "aes": "SIADH/hyponatremia, GI upset",
+    "notes": "Cause SIADH",
+    "sources": [
+      "18"
+    ]
+  },
+  {
+    "name": "Statins",
+    "class": "HMG-CoA reductase inhibitor",
+    "moa": "Inhibit HMG-CoA reductase → ↓cholesterol synthesis",
+    "uses": "Hyperlipidemia of nephrotic syndrome, CV prevention",
+    "aes": "Myopathy, rhabdomyolysis, hepatotoxicity",
+    "notes": "Decrease CV mortality in CKD",
+    "sources": [
+      "35",
+      "40",
+      "41",
+      "42",
+      "44",
+      "50"
+    ]
+  },
+  {
+    "name": "Sunitinib",
+    "class": "VEGF/PDGF tyrosine kinase inhibitor",
+    "moa": "Multi-kinase inhibitor targeting VEGFR, PDGFR",
+    "uses": "Metastatic RCC",
+    "aes": "HTN, fatigue, hand-foot syndrome, hypothyroidism",
+    "notes": "Targeted therapy for RCC",
+    "sources": [
+      "61"
+    ]
+  },
+  {
+    "name": "Tacrolimus",
+    "class": "Calcineurin inhibitor",
+    "moa": "Binds FKBP12 to inhibit calcineurin",
+    "uses": "Transplant rejection prophylaxis",
+    "aes": "Nephrotoxicity, HTN, neurotoxicity, diabetes",
+    "notes": "Standard post-transplant",
+    "sources": [
+      "23",
+      "34",
+      "36"
+    ]
+  },
+  {
+    "name": "Tamsulosin",
+    "class": "Selective α1A blocker",
+    "moa": "Selectively blocks α1A receptors in prostate/bladder neck",
+    "uses": "BPH, medical expulsive therapy for ureteral stones",
+    "aes": "Orthostatic hypotension, dizziness, ejaculatory dysfunction",
+    "notes": "Facilitates stone passage",
+    "sources": [
+      "54",
+      "65"
+    ]
+  },
+  {
+    "name": "Tenofovir",
+    "class": "NRTI",
+    "moa": "Inhibits HIV reverse transcriptase",
+    "uses": "HIV, HBV",
+    "aes": "Fanconi syndrome, nephrotoxicity, bone loss",
+    "notes": "PT toxicity",
+    "sources": [
+      "33"
+    ]
+  },
+  {
+    "name": "Terazosin",
+    "class": "Alpha-1 adrenergic blocker",
+    "moa": "Blocks α1 receptors, relaxes smooth muscle of bladder neck/prostate",
+    "uses": "BPH",
+    "aes": "Orthostatic hypotension, dizziness, syncope, may worsen stress incontinence",
+    "notes": "Can cause/worsen stress incontinence",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Thiazide diuretics",
+    "class": "Thiazide diuretic",
+    "moa": "Inhibit Na/Cl cotransporter in DCT; reduce urinary calcium",
+    "uses": "Prevent calcium stones in medullary sponge kidney",
+    "aes": "Hypomagnesemia, hypokalemia, hyponatremia, hypercalcemia",
+    "notes": "Reduce hypercalciuria",
+    "sources": [
+      "25",
+      "26",
+      "59"
+    ]
+  },
+  {
+    "name": "Tiopronin",
+    "class": "Thiol-containing agent",
+    "moa": "Forms soluble disulfide with cysteine",
+    "uses": "Cystinuria/cystine stones",
+    "aes": "Rash, proteinuria, GI upset",
+    "notes": "Cystine stone prevention",
+    "sources": [
+      "54"
+    ]
+  },
+  {
+    "name": "Tissue plasminogen activator (tPA)",
+    "class": "Thrombolytic",
+    "moa": "Converts plasminogen to plasmin, lyses fibrin",
+    "uses": "AV fistula/access thrombosis",
+    "aes": "Bleeding",
+    "notes": "Restores dialysis access patency",
+    "sources": [
+      "36"
+    ]
+  },
+  {
+    "name": "Tobramycin",
+    "class": "Aminoglycoside",
+    "moa": "Binds 30S ribosome",
+    "uses": "Pseudomonas infection",
+    "aes": "ATN, ototoxicity",
+    "notes": "Nephrotoxic",
+    "sources": [
+      "50"
+    ]
+  },
+  {
+    "name": "Tolterodine",
+    "class": "Anticholinergic (antimuscarinic)",
+    "moa": "Blocks M3 receptors on detrusor",
+    "uses": "Urge incontinence, OAB",
+    "aes": "Dry mouth, constipation, blurred vision, urinary retention",
+    "notes": "More bladder-selective than oxybutynin",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Tolvaptan",
+    "class": "V2 receptor antagonist (vaptan)",
+    "moa": "Selective V2 antagonist; blocks aquaporin insertion",
+    "uses": "Euvolemic/hypervolemic hyponatremia (SIADH, CHF), ADPKD",
+    "aes": "Polyuria, polydipsia, hypernatremia, hepatotoxicity, osmotic demyelination, thirst",
+    "notes": "Avoid in liver disease; limit to <30 days outpatient; CYP3A4 substrate",
+    "sources": [
+      "18",
+      "19",
+      "21",
+      "58"
+    ]
+  },
+  {
+    "name": "Topical vaginal estrogen",
+    "class": "Estrogen (topical)",
+    "moa": "Restores urogenital epithelium and urethral mucosal coaptation",
+    "uses": "Postmenopausal women with GSM + urinary urgency/frequency/mild incontinence",
+    "aes": "Local irritation/discharge",
+    "notes": "Caution in estrogen-dependent cancer history",
+    "sources": [
+      "65"
+    ]
+  },
+  {
+    "name": "Topiramate",
+    "class": "Anticonvulsant (CA inhibitor activity)",
+    "moa": "Multiple; includes CA inhibition",
+    "uses": "Seizures, migraine prophylaxis",
+    "aes": "Kidney stones, cognitive slowing, metabolic acidosis",
+    "notes": "Alkalinizes urine → stones",
+    "sources": [
+      "54"
+    ]
+  },
+  {
+    "name": "Torsemide",
+    "class": "Loop diuretic",
+    "moa": "Inhibits NKCC2",
+    "uses": "Edema, CHF",
+    "aes": "Hypokalemia, ototoxicity, volume depletion",
+    "notes": "Sulfa; high bioavailability/long half-life",
+    "sources": [
+      "12"
+    ]
+  },
+  {
+    "name": "Triamterene",
+    "class": "Potassium-sparing diuretic (ENaC blocker)",
+    "moa": "Blocks ENaC in collecting duct",
+    "uses": "HTN/edema adjunct, prevents hypokalemia",
+    "aes": "Hyperkalemia, drug-induced kidney stones",
+    "notes": "Direct crystal precipitation in urine",
+    "sources": [
+      "14",
+      "15",
+      "22",
+      "23",
+      "26",
+      "54"
+    ]
+  },
+  {
+    "name": "Trimethoprim",
+    "class": "Antibiotic (folate antagonist)",
+    "moa": "Inhibits bacterial DHFR; competes for tubular creatinine secretion",
+    "uses": "UTI, PCP prophylaxis",
+    "aes": "Hyperkalemia, elevated creatinine",
+    "notes": "Blocks creatinine secretion via OCT",
+    "sources": [
+      "6",
+      "7"
+    ]
+  },
+  {
+    "name": "Trimethoprim-sulfamethoxazole",
+    "class": "Antibiotic (sulfa + folate antagonist)",
+    "moa": "TMP inhibits DHFR; SMX inhibits dihydropteroate synthase",
+    "uses": "UTI/cyst infections in PKD",
+    "aes": "Rash, hyperkalemia, marrow suppression",
+    "notes": "Acts like amiloride at ENaC",
+    "sources": [
+      "23",
+      "53",
+      "58"
+    ]
+  },
+  {
+    "name": "Urea",
+    "class": "Osmotic diuretic",
+    "moa": "Filtered into nephron, increases free water excretion",
+    "uses": "Chronic euvolemic hyponatremia (SIADH)",
+    "aes": "Volume/electrolyte disturbances",
+    "notes": "Oral for SIADH",
+    "sources": [
+      "14"
+    ]
+  },
+  {
+    "name": "Vancomycin",
+    "class": "Glycopeptide antibiotic",
+    "moa": "Binds D-Ala-D-Ala blocking cell wall synthesis",
+    "uses": "Gram-positive infections (MRSA)",
+    "aes": "Nephrotoxicity (ATN), red man syndrome, ototoxicity",
+    "notes": "Trough monitoring required",
+    "sources": [
+      "34",
+      "50",
+      "53"
+    ]
+  },
+  {
+    "name": "Vinblastine",
+    "class": "Vinca alkaloid",
+    "moa": "Binds tubulin, inhibits microtubule polymerization",
+    "uses": "M-VAC regimen for bladder cancer",
+    "aes": "Myelosuppression, neuropathy (less than vincristine)",
+    "notes": "Component of M-VAC",
+    "sources": [
+      "63"
+    ]
+  },
+  {
+    "name": "Vincristine",
+    "class": "Vinca alkaloid (antimicrotubule)",
+    "moa": "Binds tubulin, inhibits microtubule formation, arrests metaphase",
+    "uses": "Wilms tumor chemotherapy",
+    "aes": "Peripheral neuropathy, constipation, SIADH",
+    "notes": "Component of Wilms regimen",
+    "sources": [
+      "60"
+    ]
+  },
+  {
+    "name": "Vitamin D",
+    "class": "Fat-soluble vitamin/hormone",
+    "moa": "Hydroxylated in PT (1α-hydroxylase) to active form",
+    "uses": "Vitamin D deficiency, CKD-MBD, osteoporosis",
+    "aes": "Hypercalcemia at high doses",
+    "notes": "Activation impaired in CKD",
+    "sources": [
+      "4",
+      "8"
+    ]
+  },
+  {
+    "name": "Zidovudine",
+    "class": "NRTI",
+    "moa": "Thymidine analog",
+    "uses": "HIV",
+    "aes": "Anemia, myopathy",
+    "notes": "",
+    "sources": [
+      "33"
+    ]
+  },
+  {
+    "name": "Zoledronic acid",
+    "class": "Bisphosphonate",
+    "moa": "Osteoclast inhibition",
+    "uses": "Hypercalcemia of malignancy, osteoporosis",
+    "aes": "Flu-like syndrome, ONJ, renal toxicity",
+    "notes": "IV",
+    "sources": [
+      "24"
+    ]
+  }
+]

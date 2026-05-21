@@ -1,0 +1,16 @@
+# Copyrighted ScholarRx source material — do not publish
+week1_sourcebricks/
+week2_sourcebricks/
+week3_sourcebricks/
+week4_sourcebricks/
+
+# Empty/failed text-extract attempts
+text_extracts/
+
+# OS / editor / agent clutter
+.DS_Store
+Thumbs.db
+.claude/
+*.swp
+.vscode/
+node_modules/
