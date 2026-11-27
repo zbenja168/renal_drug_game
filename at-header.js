@@ -82,7 +82,7 @@
       '<div class="at-sh-in">' +
       '<a class="at-sh-brand" href="' + AT_URL + '/#primary" target="_blank" rel="noopener noreferrer" title="Active Transport home">' +
       mark(26) + '<span class="at-wordmark at-sh-word">Active Transport</span></a>' +
-      '<div class="at-sh-title"><div class="at-sh-eyebrow">Primary Active Transport · ' + esc(S.course) + '</div>' + h + '</div>' +
+      '<div class="at-sh-title"><div class="at-sh-eyebrow">Active Transport · ' + esc(S.course) + '</div>' + h + '</div>' +
       nav + '</div></header>' +
       (page === 'game' ? '<nav class="at-gamenav" aria-label="Game navigation"></nav>' : '');
   }
