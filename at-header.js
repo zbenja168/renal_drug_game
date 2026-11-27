@@ -94,6 +94,20 @@
       '<span class="at-card-cta">Open Active Transport &rarr;</span></a></div>';
   }
 
+  // Animated course art (activetransport.app/static/course-art/<key>.svg) under
+  // the header on a tool's main page; game pages keep their space for the game.
+  var ART_KEYS = { 'BOOM': 'boom', 'Immunology': 'immuno', 'Microbiology': 'micro', 'Pathology': 'path',
+    'Pharmacology': 'pharm', 'Blood & Lymph': 'blood', 'Cardiovascular': 'cardio', 'Respiratory': 'resp',
+    'Renal': 'renal', 'Gastrointestinal': 'gi', 'Endocrine': 'endo', 'Reproductive': 'repro', 'Skin & MSK': 'msk' };
+  function insertArt() {
+    var key = S.artKey || ART_KEYS[S.course];
+    if (!key || S.art === false || page === 'game' || document.querySelector('[data-at-art]')) return;
+    var h = document.querySelector('[data-at-header]');
+    if (!h) return;
+    h.insertAdjacentHTML('afterend', '<div class="at-art-wrap" data-at-art=""><img class="at-art" alt="" decoding="async" src="' +
+      AT_URL + '/static/course-art/' + key + '.svg" onerror="this.parentNode.remove()"></div>');
+  }
+
   function insertHeader() {
     if (document.querySelector('[data-at-header]')) return;
     var host = S.mount ? document.querySelector(S.mount) : null;
@@ -102,6 +116,7 @@
       document.body.insertAdjacentHTML('afterbegin', headerHTML());
       bleed();
     }
+    insertArt();
   }
 
   // The header runs edge to edge even when the page pads <body>.
