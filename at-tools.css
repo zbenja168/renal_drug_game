@@ -132,18 +132,17 @@ body { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-
   .at-corner-spacer { display: block; height: 64px; clear: both; }
 }
 
-/* ---- Promo card (spec §4): icon | text | button; stacked below 640px ---- */
+/* ---- Promo card (spec §4): icon | title | button; button drops below the title under 640px ---- */
 .at-card-wrap { padding: 0 24px; clear: both; }
 .at-card {
-  display: grid; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: "icon title cta" "icon text cta";
+  display: grid; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: "icon title cta";
   column-gap: 16px; row-gap: 4px; align-items: center; max-width: 72rem; margin: 32px auto 24px; padding: 16px 18px;
   border-radius: 16px; text-decoration: none; text-align: left;
   background: linear-gradient(135deg, rgba(34,211,238,.08), rgba(45,212,191,.05)), #0f172a; border: 1px solid #1e3a44;
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 .at-card-icon { grid-area: icon; display: flex; }
-.at-card-title { grid-area: title; font-size: 1.05rem; align-self: end; }
-.at-card .at-card-text { grid-area: text; margin: 0; font-size: .86rem; color: #94a3b8; line-height: 1.5; align-self: start; }
+.at-card-title { grid-area: title; font-size: 1.05rem; font-weight: 600; color: #e2e8f0; min-width: 0; }
 .at-card-cta {
   grid-area: cta; white-space: nowrap; text-align: center; padding: 10px 16px; border-radius: 10px; font-size: .875rem; font-weight: 600;
   color: #0f172a; background: linear-gradient(135deg, #38bdf8 0%, #22d3ee 45%, #2dd4bf 100%); transition: filter .15s ease, transform .15s ease;
@@ -151,9 +150,8 @@ body { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-
 .at-card:hover .at-card-cta { filter: brightness(1.08); transform: translateY(-1px); }
 @media (max-width: 639px) {
   .at-card-wrap { padding: 0 16px; }
-  .at-card { grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "icon title" "text text" "cta cta"; row-gap: 10px; column-gap: 10px; padding: 16px; }
-  .at-card-title { align-self: center; }
-  .at-card-cta { display: flex; align-items: center; justify-content: center; min-height: 44px; white-space: normal; }
+  .at-card { grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "icon title" "cta cta"; row-gap: 12px; column-gap: 10px; padding: 16px; }
+    .at-card-cta { display: flex; align-items: center; justify-content: center; min-height: 44px; white-space: normal; }
 }
 
 /* Exam skins imitate an exam interface: their quiz page drops the brand bar. */

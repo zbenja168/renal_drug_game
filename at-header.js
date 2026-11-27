@@ -88,12 +88,9 @@
   }
 
   function cardHTML() {
-    var what = S.kind === 'qbank' ? 'This free question bank' : 'This free study game';
     return '<div class="at-card-wrap"><a class="at-card" id="at-card-root" href="' + AT_URL + '/#primary" target="_blank" rel="noopener noreferrer">' +
       '<span class="at-card-icon">' + mark(34) + '</span>' +
-      '<span class="at-card-title at-wordmark">Active Transport</span>' +
-      '<p class="at-card-text">' + what + ' is part of Primary Active Transport: study tools built from your bricks, in class order. ' +
-      'Active Transport also turns your own notes into NBME-style questions and Anki cards.</p>' +
+      '<span class="at-card-title">Part of <span class="at-wordmark">Active Transport</span></span>' +
       '<span class="at-card-cta">Open Active Transport &rarr;</span></a></div>';
   }
 
